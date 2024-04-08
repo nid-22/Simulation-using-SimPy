@@ -1,0 +1,2722 @@
+Container Terminal Unload Simulation
+-----------------------------------------------------
+Time(m)| Vessel |  Action
+-----------------------------------------------------
+306 : Vessel 1 : Arrived at terminal_ _ _ _ _ _<-\___/
+306 : Vessel 1 : Berthed
+306 : Vessel 1 : Crane starts unloading container-1 to truck
+309 : Vessel 1 : Truck left with container-1
+309 : Vessel 1 : Crane starts unloading container-2 to truck
+312 : Vessel 1 : Truck left with container-2
+312 : Vessel 1 : Crane starts unloading container-3 to truck
+314 : Vessel 2 : Arrived at terminal_ _ _ _ _ _<-\___/
+314 : Vessel 2 : Berthed
+315 : Vessel 1 : Truck returned after transporting container-1
+315 : Vessel 1 : Truck left with container-3
+315 : Vessel 2 : Crane starts unloading container-1 to truck
+318 : Vessel 1 : Truck returned after transporting container-2
+318 : Vessel 2 : Truck left with container-1
+318 : Vessel 1 : Crane starts unloading container-4 to truck
+321 : Vessel 1 : Truck returned after transporting container-3
+321 : Vessel 1 : Truck left with container-4
+321 : Vessel 2 : Crane starts unloading container-2 to truck
+324 : Vessel 2 : Truck returned after transporting container-1
+324 : Vessel 2 : Truck left with container-2
+324 : Vessel 1 : Crane starts unloading container-5 to truck
+327 : Vessel 1 : Truck returned after transporting container-4
+327 : Vessel 1 : Truck left with container-5
+327 : Vessel 2 : Crane starts unloading container-3 to truck
+330 : Vessel 2 : Truck returned after transporting container-2
+330 : Vessel 2 : Truck left with container-3
+330 : Vessel 1 : Crane starts unloading container-6 to truck
+333 : Vessel 1 : Truck returned after transporting container-5
+333 : Vessel 1 : Truck left with container-6
+333 : Vessel 2 : Crane starts unloading container-4 to truck
+336 : Vessel 2 : Truck returned after transporting container-3
+336 : Vessel 2 : Truck left with container-4
+336 : Vessel 1 : Crane starts unloading container-7 to truck
+339 : Vessel 1 : Truck returned after transporting container-6
+339 : Vessel 1 : Truck left with container-7
+339 : Vessel 2 : Crane starts unloading container-5 to truck
+342 : Vessel 2 : Truck returned after transporting container-4
+342 : Vessel 2 : Truck left with container-5
+342 : Vessel 1 : Crane starts unloading container-8 to truck
+345 : Vessel 1 : Truck returned after transporting container-7
+345 : Vessel 1 : Truck left with container-8
+345 : Vessel 2 : Crane starts unloading container-6 to truck
+348 : Vessel 2 : Truck returned after transporting container-5
+348 : Vessel 2 : Truck left with container-6
+348 : Vessel 1 : Crane starts unloading container-9 to truck
+351 : Vessel 1 : Truck returned after transporting container-8
+351 : Vessel 1 : Truck left with container-9
+351 : Vessel 2 : Crane starts unloading container-7 to truck
+354 : Vessel 2 : Truck returned after transporting container-6
+354 : Vessel 2 : Truck left with container-7
+354 : Vessel 1 : Crane starts unloading container-10 to truck
+357 : Vessel 1 : Truck returned after transporting container-9
+357 : Vessel 1 : Truck left with container-10
+357 : Vessel 2 : Crane starts unloading container-8 to truck
+360 : Vessel 2 : Truck returned after transporting container-7
+360 : Vessel 2 : Truck left with container-8
+360 : Vessel 1 : Crane starts unloading container-11 to truck
+363 : Vessel 1 : Truck returned after transporting container-10
+363 : Vessel 1 : Truck left with container-11
+363 : Vessel 2 : Crane starts unloading container-9 to truck
+366 : Vessel 2 : Truck returned after transporting container-8
+366 : Vessel 2 : Truck left with container-9
+366 : Vessel 1 : Crane starts unloading container-12 to truck
+369 : Vessel 1 : Truck returned after transporting container-11
+369 : Vessel 1 : Truck left with container-12
+369 : Vessel 2 : Crane starts unloading container-10 to truck
+372 : Vessel 2 : Truck returned after transporting container-9
+372 : Vessel 2 : Truck left with container-10
+372 : Vessel 1 : Crane starts unloading container-13 to truck
+375 : Vessel 1 : Truck returned after transporting container-12
+375 : Vessel 1 : Truck left with container-13
+375 : Vessel 2 : Crane starts unloading container-11 to truck
+378 : Vessel 2 : Truck returned after transporting container-10
+378 : Vessel 2 : Truck left with container-11
+378 : Vessel 1 : Crane starts unloading container-14 to truck
+381 : Vessel 1 : Truck returned after transporting container-13
+381 : Vessel 1 : Truck left with container-14
+381 : Vessel 2 : Crane starts unloading container-12 to truck
+384 : Vessel 2 : Truck returned after transporting container-11
+384 : Vessel 2 : Truck left with container-12
+384 : Vessel 1 : Crane starts unloading container-15 to truck
+387 : Vessel 1 : Truck returned after transporting container-14
+387 : Vessel 1 : Truck left with container-15
+387 : Vessel 2 : Crane starts unloading container-13 to truck
+390 : Vessel 2 : Truck returned after transporting container-12
+390 : Vessel 2 : Truck left with container-13
+390 : Vessel 1 : Crane starts unloading container-16 to truck
+393 : Vessel 1 : Truck returned after transporting container-15
+393 : Vessel 1 : Truck left with container-16
+393 : Vessel 2 : Crane starts unloading container-14 to truck
+396 : Vessel 2 : Truck returned after transporting container-13
+396 : Vessel 2 : Truck left with container-14
+396 : Vessel 1 : Crane starts unloading container-17 to truck
+399 : Vessel 1 : Truck returned after transporting container-16
+399 : Vessel 1 : Truck left with container-17
+399 : Vessel 2 : Crane starts unloading container-15 to truck
+402 : Vessel 2 : Truck returned after transporting container-14
+402 : Vessel 2 : Truck left with container-15
+402 : Vessel 1 : Crane starts unloading container-18 to truck
+405 : Vessel 1 : Truck returned after transporting container-17
+405 : Vessel 1 : Truck left with container-18
+405 : Vessel 2 : Crane starts unloading container-16 to truck
+408 : Vessel 2 : Truck returned after transporting container-15
+408 : Vessel 2 : Truck left with container-16
+408 : Vessel 1 : Crane starts unloading container-19 to truck
+410 : Vessel 3 : Arrived at terminal_ _ _ _ _ _<-\___/
+411 : Vessel 1 : Truck returned after transporting container-18
+411 : Vessel 1 : Truck left with container-19
+411 : Vessel 2 : Crane starts unloading container-17 to truck
+414 : Vessel 2 : Truck returned after transporting container-16
+414 : Vessel 2 : Truck left with container-17
+414 : Vessel 1 : Crane starts unloading container-20 to truck
+417 : Vessel 1 : Truck returned after transporting container-19
+417 : Vessel 1 : Truck left with container-20
+417 : Vessel 2 : Crane starts unloading container-18 to truck
+420 : Vessel 2 : Truck returned after transporting container-17
+420 : Vessel 2 : Truck left with container-18
+420 : Vessel 1 : Crane starts unloading container-21 to truck
+423 : Vessel 1 : Truck returned after transporting container-20
+423 : Vessel 1 : Truck left with container-21
+423 : Vessel 2 : Crane starts unloading container-19 to truck
+426 : Vessel 2 : Truck returned after transporting container-18
+426 : Vessel 2 : Truck left with container-19
+426 : Vessel 1 : Crane starts unloading container-22 to truck
+429 : Vessel 1 : Truck returned after transporting container-21
+429 : Vessel 1 : Truck left with container-22
+429 : Vessel 2 : Crane starts unloading container-20 to truck
+432 : Vessel 2 : Truck returned after transporting container-19
+432 : Vessel 2 : Truck left with container-20
+432 : Vessel 1 : Crane starts unloading container-23 to truck
+435 : Vessel 1 : Truck returned after transporting container-22
+435 : Vessel 1 : Truck left with container-23
+435 : Vessel 2 : Crane starts unloading container-21 to truck
+438 : Vessel 2 : Truck returned after transporting container-20
+438 : Vessel 2 : Truck left with container-21
+438 : Vessel 1 : Crane starts unloading container-24 to truck
+441 : Vessel 1 : Truck returned after transporting container-23
+441 : Vessel 1 : Truck left with container-24
+441 : Vessel 2 : Crane starts unloading container-22 to truck
+444 : Vessel 2 : Truck returned after transporting container-21
+444 : Vessel 2 : Truck left with container-22
+444 : Vessel 1 : Crane starts unloading container-25 to truck
+447 : Vessel 1 : Truck returned after transporting container-24
+447 : Vessel 1 : Truck left with container-25
+447 : Vessel 2 : Crane starts unloading container-23 to truck
+450 : Vessel 2 : Truck returned after transporting container-22
+450 : Vessel 2 : Truck left with container-23
+450 : Vessel 1 : Crane starts unloading container-26 to truck
+453 : Vessel 1 : Truck returned after transporting container-25
+453 : Vessel 1 : Truck left with container-26
+453 : Vessel 2 : Crane starts unloading container-24 to truck
+456 : Vessel 2 : Truck returned after transporting container-23
+456 : Vessel 2 : Truck left with container-24
+456 : Vessel 1 : Crane starts unloading container-27 to truck
+459 : Vessel 1 : Truck returned after transporting container-26
+459 : Vessel 1 : Truck left with container-27
+459 : Vessel 2 : Crane starts unloading container-25 to truck
+462 : Vessel 2 : Truck returned after transporting container-24
+462 : Vessel 2 : Truck left with container-25
+462 : Vessel 1 : Crane starts unloading container-28 to truck
+465 : Vessel 1 : Truck returned after transporting container-27
+465 : Vessel 1 : Truck left with container-28
+465 : Vessel 2 : Crane starts unloading container-26 to truck
+468 : Vessel 2 : Truck returned after transporting container-25
+468 : Vessel 2 : Truck left with container-26
+468 : Vessel 1 : Crane starts unloading container-29 to truck
+471 : Vessel 1 : Truck returned after transporting container-28
+471 : Vessel 1 : Truck left with container-29
+471 : Vessel 2 : Crane starts unloading container-27 to truck
+474 : Vessel 2 : Truck returned after transporting container-26
+474 : Vessel 2 : Truck left with container-27
+474 : Vessel 1 : Crane starts unloading container-30 to truck
+477 : Vessel 1 : Truck returned after transporting container-29
+477 : Vessel 1 : Truck left with container-30
+477 : Vessel 2 : Crane starts unloading container-28 to truck
+480 : Vessel 2 : Truck returned after transporting container-27
+480 : Vessel 2 : Truck left with container-28
+480 : Vessel 1 : Crane starts unloading container-31 to truck
+483 : Vessel 1 : Truck returned after transporting container-30
+483 : Vessel 1 : Truck left with container-31
+483 : Vessel 2 : Crane starts unloading container-29 to truck
+486 : Vessel 4 : Arrived at terminal_ _ _ _ _ _<-\___/
+486 : Vessel 2 : Truck returned after transporting container-28
+486 : Vessel 2 : Truck left with container-29
+486 : Vessel 1 : Crane starts unloading container-32 to truck
+489 : Vessel 1 : Truck returned after transporting container-31
+489 : Vessel 1 : Truck left with container-32
+489 : Vessel 2 : Crane starts unloading container-30 to truck
+492 : Vessel 2 : Truck returned after transporting container-29
+492 : Vessel 2 : Truck left with container-30
+492 : Vessel 1 : Crane starts unloading container-33 to truck
+495 : Vessel 1 : Truck returned after transporting container-32
+495 : Vessel 1 : Truck left with container-33
+495 : Vessel 2 : Crane starts unloading container-31 to truck
+498 : Vessel 2 : Truck returned after transporting container-30
+498 : Vessel 2 : Truck left with container-31
+498 : Vessel 1 : Crane starts unloading container-34 to truck
+501 : Vessel 1 : Truck returned after transporting container-33
+501 : Vessel 1 : Truck left with container-34
+501 : Vessel 2 : Crane starts unloading container-32 to truck
+504 : Vessel 2 : Truck returned after transporting container-31
+504 : Vessel 2 : Truck left with container-32
+504 : Vessel 1 : Crane starts unloading container-35 to truck
+507 : Vessel 1 : Truck returned after transporting container-34
+507 : Vessel 1 : Truck left with container-35
+507 : Vessel 2 : Crane starts unloading container-33 to truck
+510 : Vessel 2 : Truck returned after transporting container-32
+510 : Vessel 2 : Truck left with container-33
+510 : Vessel 1 : Crane starts unloading container-36 to truck
+513 : Vessel 1 : Truck returned after transporting container-35
+513 : Vessel 1 : Truck left with container-36
+513 : Vessel 2 : Crane starts unloading container-34 to truck
+516 : Vessel 2 : Truck returned after transporting container-33
+516 : Vessel 2 : Truck left with container-34
+516 : Vessel 1 : Crane starts unloading container-37 to truck
+519 : Vessel 1 : Truck returned after transporting container-36
+519 : Vessel 1 : Truck left with container-37
+519 : Vessel 2 : Crane starts unloading container-35 to truck
+522 : Vessel 2 : Truck returned after transporting container-34
+522 : Vessel 2 : Truck left with container-35
+522 : Vessel 1 : Crane starts unloading container-38 to truck
+525 : Vessel 1 : Truck returned after transporting container-37
+525 : Vessel 1 : Truck left with container-38
+525 : Vessel 2 : Crane starts unloading container-36 to truck
+528 : Vessel 2 : Truck returned after transporting container-35
+528 : Vessel 2 : Truck left with container-36
+528 : Vessel 1 : Crane starts unloading container-39 to truck
+531 : Vessel 1 : Truck returned after transporting container-38
+531 : Vessel 1 : Truck left with container-39
+531 : Vessel 2 : Crane starts unloading container-37 to truck
+534 : Vessel 2 : Truck returned after transporting container-36
+534 : Vessel 2 : Truck left with container-37
+534 : Vessel 1 : Crane starts unloading container-40 to truck
+537 : Vessel 1 : Truck returned after transporting container-39
+537 : Vessel 1 : Truck left with container-40
+537 : Vessel 2 : Crane starts unloading container-38 to truck
+540 : Vessel 2 : Truck returned after transporting container-37
+540 : Vessel 2 : Truck left with container-38
+540 : Vessel 1 : Crane starts unloading container-41 to truck
+543 : Vessel 1 : Truck returned after transporting container-40
+543 : Vessel 1 : Truck left with container-41
+543 : Vessel 2 : Crane starts unloading container-39 to truck
+546 : Vessel 2 : Truck returned after transporting container-38
+546 : Vessel 2 : Truck left with container-39
+546 : Vessel 1 : Crane starts unloading container-42 to truck
+549 : Vessel 1 : Truck returned after transporting container-41
+549 : Vessel 1 : Truck left with container-42
+549 : Vessel 2 : Crane starts unloading container-40 to truck
+552 : Vessel 2 : Truck returned after transporting container-39
+552 : Vessel 2 : Truck left with container-40
+552 : Vessel 1 : Crane starts unloading container-43 to truck
+555 : Vessel 1 : Truck returned after transporting container-42
+555 : Vessel 1 : Truck left with container-43
+555 : Vessel 2 : Crane starts unloading container-41 to truck
+558 : Vessel 2 : Truck returned after transporting container-40
+558 : Vessel 2 : Truck left with container-41
+558 : Vessel 1 : Crane starts unloading container-44 to truck
+561 : Vessel 1 : Truck returned after transporting container-43
+561 : Vessel 1 : Truck left with container-44
+561 : Vessel 2 : Crane starts unloading container-42 to truck
+564 : Vessel 2 : Truck returned after transporting container-41
+564 : Vessel 2 : Truck left with container-42
+564 : Vessel 1 : Crane starts unloading container-45 to truck
+567 : Vessel 1 : Truck returned after transporting container-44
+567 : Vessel 1 : Truck left with container-45
+567 : Vessel 2 : Crane starts unloading container-43 to truck
+570 : Vessel 2 : Truck returned after transporting container-42
+570 : Vessel 2 : Truck left with container-43
+570 : Vessel 1 : Crane starts unloading container-46 to truck
+573 : Vessel 1 : Truck returned after transporting container-45
+573 : Vessel 1 : Truck left with container-46
+573 : Vessel 2 : Crane starts unloading container-44 to truck
+576 : Vessel 2 : Truck returned after transporting container-43
+576 : Vessel 2 : Truck left with container-44
+576 : Vessel 1 : Crane starts unloading container-47 to truck
+579 : Vessel 1 : Truck returned after transporting container-46
+579 : Vessel 1 : Truck left with container-47
+579 : Vessel 2 : Crane starts unloading container-45 to truck
+582 : Vessel 2 : Truck returned after transporting container-44
+582 : Vessel 2 : Truck left with container-45
+582 : Vessel 1 : Crane starts unloading container-48 to truck
+585 : Vessel 1 : Truck returned after transporting container-47
+585 : Vessel 1 : Truck left with container-48
+585 : Vessel 2 : Crane starts unloading container-46 to truck
+588 : Vessel 2 : Truck returned after transporting container-45
+588 : Vessel 2 : Truck left with container-46
+588 : Vessel 1 : Crane starts unloading container-49 to truck
+591 : Vessel 1 : Truck returned after transporting container-48
+591 : Vessel 1 : Truck left with container-49
+591 : Vessel 2 : Crane starts unloading container-47 to truck
+594 : Vessel 2 : Truck returned after transporting container-46
+594 : Vessel 2 : Truck left with container-47
+594 : Vessel 1 : Crane starts unloading container-50 to truck
+597 : Vessel 1 : Truck returned after transporting container-49
+597 : Vessel 1 : Truck left with container-50
+597 : Vessel 2 : Crane starts unloading container-48 to truck
+600 : Vessel 2 : Truck returned after transporting container-47
+600 : Vessel 2 : Truck left with container-48
+600 : Vessel 1 : Crane starts unloading container-51 to truck
+603 : Vessel 1 : Truck returned after transporting container-50
+603 : Vessel 1 : Truck left with container-51
+603 : Vessel 2 : Crane starts unloading container-49 to truck
+606 : Vessel 2 : Truck returned after transporting container-48
+606 : Vessel 2 : Truck left with container-49
+606 : Vessel 1 : Crane starts unloading container-52 to truck
+609 : Vessel 1 : Truck returned after transporting container-51
+609 : Vessel 1 : Truck left with container-52
+609 : Vessel 2 : Crane starts unloading container-50 to truck
+612 : Vessel 2 : Truck returned after transporting container-49
+612 : Vessel 2 : Truck left with container-50
+612 : Vessel 1 : Crane starts unloading container-53 to truck
+615 : Vessel 1 : Truck returned after transporting container-52
+615 : Vessel 1 : Truck left with container-53
+615 : Vessel 2 : Crane starts unloading container-51 to truck
+618 : Vessel 2 : Truck returned after transporting container-50
+618 : Vessel 2 : Truck left with container-51
+618 : Vessel 1 : Crane starts unloading container-54 to truck
+621 : Vessel 1 : Truck returned after transporting container-53
+621 : Vessel 1 : Truck left with container-54
+621 : Vessel 2 : Crane starts unloading container-52 to truck
+624 : Vessel 2 : Truck returned after transporting container-51
+624 : Vessel 2 : Truck left with container-52
+624 : Vessel 1 : Crane starts unloading container-55 to truck
+627 : Vessel 1 : Truck returned after transporting container-54
+627 : Vessel 1 : Truck left with container-55
+627 : Vessel 2 : Crane starts unloading container-53 to truck
+630 : Vessel 2 : Truck returned after transporting container-52
+630 : Vessel 2 : Truck left with container-53
+630 : Vessel 1 : Crane starts unloading container-56 to truck
+633 : Vessel 1 : Truck returned after transporting container-55
+633 : Vessel 1 : Truck left with container-56
+633 : Vessel 2 : Crane starts unloading container-54 to truck
+636 : Vessel 2 : Truck returned after transporting container-53
+636 : Vessel 2 : Truck left with container-54
+636 : Vessel 1 : Crane starts unloading container-57 to truck
+639 : Vessel 1 : Truck returned after transporting container-56
+639 : Vessel 1 : Truck left with container-57
+639 : Vessel 2 : Crane starts unloading container-55 to truck
+642 : Vessel 2 : Truck returned after transporting container-54
+642 : Vessel 2 : Truck left with container-55
+642 : Vessel 1 : Crane starts unloading container-58 to truck
+645 : Vessel 1 : Truck returned after transporting container-57
+645 : Vessel 1 : Truck left with container-58
+645 : Vessel 2 : Crane starts unloading container-56 to truck
+648 : Vessel 2 : Truck returned after transporting container-55
+648 : Vessel 2 : Truck left with container-56
+648 : Vessel 1 : Crane starts unloading container-59 to truck
+651 : Vessel 1 : Truck returned after transporting container-58
+651 : Vessel 1 : Truck left with container-59
+651 : Vessel 2 : Crane starts unloading container-57 to truck
+654 : Vessel 2 : Truck returned after transporting container-56
+654 : Vessel 2 : Truck left with container-57
+654 : Vessel 1 : Crane starts unloading container-60 to truck
+657 : Vessel 1 : Truck returned after transporting container-59
+657 : Vessel 1 : Truck left with container-60
+657 : Vessel 2 : Crane starts unloading container-58 to truck
+660 : Vessel 2 : Truck returned after transporting container-57
+660 : Vessel 2 : Truck left with container-58
+660 : Vessel 1 : Crane starts unloading container-61 to truck
+663 : Vessel 1 : Truck returned after transporting container-60
+663 : Vessel 1 : Truck left with container-61
+663 : Vessel 2 : Crane starts unloading container-59 to truck
+666 : Vessel 2 : Truck returned after transporting container-58
+666 : Vessel 2 : Truck left with container-59
+666 : Vessel 1 : Crane starts unloading container-62 to truck
+669 : Vessel 1 : Truck returned after transporting container-61
+669 : Vessel 1 : Truck left with container-62
+669 : Vessel 2 : Crane starts unloading container-60 to truck
+672 : Vessel 2 : Truck returned after transporting container-59
+672 : Vessel 2 : Truck left with container-60
+672 : Vessel 1 : Crane starts unloading container-63 to truck
+675 : Vessel 1 : Truck returned after transporting container-62
+675 : Vessel 1 : Truck left with container-63
+675 : Vessel 2 : Crane starts unloading container-61 to truck
+678 : Vessel 2 : Truck returned after transporting container-60
+678 : Vessel 2 : Truck left with container-61
+678 : Vessel 1 : Crane starts unloading container-64 to truck
+681 : Vessel 1 : Truck returned after transporting container-63
+681 : Vessel 1 : Truck left with container-64
+681 : Vessel 2 : Crane starts unloading container-62 to truck
+684 : Vessel 2 : Truck returned after transporting container-61
+684 : Vessel 2 : Truck left with container-62
+684 : Vessel 1 : Crane starts unloading container-65 to truck
+687 : Vessel 1 : Truck returned after transporting container-64
+687 : Vessel 1 : Truck left with container-65
+687 : Vessel 2 : Crane starts unloading container-63 to truck
+690 : Vessel 2 : Truck returned after transporting container-62
+690 : Vessel 2 : Truck left with container-63
+690 : Vessel 1 : Crane starts unloading container-66 to truck
+693 : Vessel 1 : Truck returned after transporting container-65
+693 : Vessel 1 : Truck left with container-66
+693 : Vessel 2 : Crane starts unloading container-64 to truck
+696 : Vessel 2 : Truck returned after transporting container-63
+696 : Vessel 2 : Truck left with container-64
+696 : Vessel 1 : Crane starts unloading container-67 to truck
+699 : Vessel 1 : Truck returned after transporting container-66
+699 : Vessel 1 : Truck left with container-67
+699 : Vessel 2 : Crane starts unloading container-65 to truck
+702 : Vessel 2 : Truck returned after transporting container-64
+702 : Vessel 2 : Truck left with container-65
+702 : Vessel 1 : Crane starts unloading container-68 to truck
+705 : Vessel 1 : Truck returned after transporting container-67
+705 : Vessel 1 : Truck left with container-68
+705 : Vessel 2 : Crane starts unloading container-66 to truck
+708 : Vessel 2 : Truck returned after transporting container-65
+708 : Vessel 2 : Truck left with container-66
+708 : Vessel 1 : Crane starts unloading container-69 to truck
+711 : Vessel 1 : Truck returned after transporting container-68
+711 : Vessel 1 : Truck left with container-69
+711 : Vessel 2 : Crane starts unloading container-67 to truck
+714 : Vessel 2 : Truck returned after transporting container-66
+714 : Vessel 2 : Truck left with container-67
+714 : Vessel 1 : Crane starts unloading container-70 to truck
+717 : Vessel 1 : Truck returned after transporting container-69
+717 : Vessel 1 : Truck left with container-70
+717 : Vessel 2 : Crane starts unloading container-68 to truck
+720 : Vessel 2 : Truck returned after transporting container-67
+720 : Vessel 2 : Truck left with container-68
+720 : Vessel 1 : Crane starts unloading container-71 to truck
+723 : Vessel 1 : Truck returned after transporting container-70
+723 : Vessel 1 : Truck left with container-71
+723 : Vessel 2 : Crane starts unloading container-69 to truck
+726 : Vessel 2 : Truck returned after transporting container-68
+726 : Vessel 2 : Truck left with container-69
+726 : Vessel 1 : Crane starts unloading container-72 to truck
+729 : Vessel 1 : Truck returned after transporting container-71
+729 : Vessel 1 : Truck left with container-72
+729 : Vessel 2 : Crane starts unloading container-70 to truck
+732 : Vessel 2 : Truck returned after transporting container-69
+732 : Vessel 2 : Truck left with container-70
+732 : Vessel 1 : Crane starts unloading container-73 to truck
+735 : Vessel 1 : Truck returned after transporting container-72
+735 : Vessel 1 : Truck left with container-73
+735 : Vessel 2 : Crane starts unloading container-71 to truck
+738 : Vessel 2 : Truck returned after transporting container-70
+738 : Vessel 2 : Truck left with container-71
+738 : Vessel 1 : Crane starts unloading container-74 to truck
+741 : Vessel 1 : Truck returned after transporting container-73
+741 : Vessel 1 : Truck left with container-74
+741 : Vessel 2 : Crane starts unloading container-72 to truck
+744 : Vessel 2 : Truck returned after transporting container-71
+744 : Vessel 2 : Truck left with container-72
+744 : Vessel 1 : Crane starts unloading container-75 to truck
+747 : Vessel 1 : Truck returned after transporting container-74
+747 : Vessel 1 : Truck left with container-75
+747 : Vessel 2 : Crane starts unloading container-73 to truck
+750 : Vessel 2 : Truck returned after transporting container-72
+750 : Vessel 2 : Truck left with container-73
+750 : Vessel 1 : Crane starts unloading container-76 to truck
+753 : Vessel 1 : Truck returned after transporting container-75
+753 : Vessel 1 : Truck left with container-76
+753 : Vessel 2 : Crane starts unloading container-74 to truck
+756 : Vessel 2 : Truck returned after transporting container-73
+756 : Vessel 2 : Truck left with container-74
+756 : Vessel 1 : Crane starts unloading container-77 to truck
+759 : Vessel 1 : Truck returned after transporting container-76
+759 : Vessel 1 : Truck left with container-77
+759 : Vessel 2 : Crane starts unloading container-75 to truck
+762 : Vessel 2 : Truck returned after transporting container-74
+762 : Vessel 2 : Truck left with container-75
+762 : Vessel 1 : Crane starts unloading container-78 to truck
+765 : Vessel 1 : Truck returned after transporting container-77
+765 : Vessel 1 : Truck left with container-78
+765 : Vessel 2 : Crane starts unloading container-76 to truck
+768 : Vessel 2 : Truck returned after transporting container-75
+768 : Vessel 2 : Truck left with container-76
+768 : Vessel 1 : Crane starts unloading container-79 to truck
+771 : Vessel 1 : Truck returned after transporting container-78
+771 : Vessel 1 : Truck left with container-79
+771 : Vessel 2 : Crane starts unloading container-77 to truck
+774 : Vessel 2 : Truck returned after transporting container-76
+774 : Vessel 2 : Truck left with container-77
+774 : Vessel 1 : Crane starts unloading container-80 to truck
+777 : Vessel 1 : Truck returned after transporting container-79
+777 : Vessel 1 : Truck left with container-80
+777 : Vessel 2 : Crane starts unloading container-78 to truck
+780 : Vessel 2 : Truck returned after transporting container-77
+780 : Vessel 2 : Truck left with container-78
+780 : Vessel 1 : Crane starts unloading container-81 to truck
+783 : Vessel 1 : Truck returned after transporting container-80
+783 : Vessel 1 : Truck left with container-81
+783 : Vessel 2 : Crane starts unloading container-79 to truck
+786 : Vessel 2 : Truck returned after transporting container-78
+786 : Vessel 2 : Truck left with container-79
+786 : Vessel 1 : Crane starts unloading container-82 to truck
+789 : Vessel 1 : Truck returned after transporting container-81
+789 : Vessel 1 : Truck left with container-82
+789 : Vessel 2 : Crane starts unloading container-80 to truck
+792 : Vessel 2 : Truck returned after transporting container-79
+792 : Vessel 2 : Truck left with container-80
+792 : Vessel 1 : Crane starts unloading container-83 to truck
+795 : Vessel 1 : Truck returned after transporting container-82
+795 : Vessel 1 : Truck left with container-83
+795 : Vessel 2 : Crane starts unloading container-81 to truck
+798 : Vessel 2 : Truck returned after transporting container-80
+798 : Vessel 2 : Truck left with container-81
+798 : Vessel 1 : Crane starts unloading container-84 to truck
+801 : Vessel 1 : Truck returned after transporting container-83
+801 : Vessel 1 : Truck left with container-84
+801 : Vessel 2 : Crane starts unloading container-82 to truck
+804 : Vessel 2 : Truck returned after transporting container-81
+804 : Vessel 2 : Truck left with container-82
+804 : Vessel 1 : Crane starts unloading container-85 to truck
+807 : Vessel 1 : Truck returned after transporting container-84
+807 : Vessel 1 : Truck left with container-85
+807 : Vessel 2 : Crane starts unloading container-83 to truck
+810 : Vessel 2 : Truck returned after transporting container-82
+810 : Vessel 2 : Truck left with container-83
+810 : Vessel 1 : Crane starts unloading container-86 to truck
+813 : Vessel 1 : Truck returned after transporting container-85
+813 : Vessel 1 : Truck left with container-86
+813 : Vessel 2 : Crane starts unloading container-84 to truck
+816 : Vessel 2 : Truck returned after transporting container-83
+816 : Vessel 2 : Truck left with container-84
+816 : Vessel 1 : Crane starts unloading container-87 to truck
+819 : Vessel 1 : Truck returned after transporting container-86
+819 : Vessel 1 : Truck left with container-87
+819 : Vessel 2 : Crane starts unloading container-85 to truck
+822 : Vessel 2 : Truck returned after transporting container-84
+822 : Vessel 2 : Truck left with container-85
+822 : Vessel 1 : Crane starts unloading container-88 to truck
+825 : Vessel 1 : Truck returned after transporting container-87
+825 : Vessel 1 : Truck left with container-88
+825 : Vessel 2 : Crane starts unloading container-86 to truck
+828 : Vessel 2 : Truck returned after transporting container-85
+828 : Vessel 2 : Truck left with container-86
+828 : Vessel 1 : Crane starts unloading container-89 to truck
+831 : Vessel 1 : Truck returned after transporting container-88
+831 : Vessel 1 : Truck left with container-89
+831 : Vessel 2 : Crane starts unloading container-87 to truck
+834 : Vessel 2 : Truck returned after transporting container-86
+834 : Vessel 2 : Truck left with container-87
+834 : Vessel 1 : Crane starts unloading container-90 to truck
+837 : Vessel 1 : Truck returned after transporting container-89
+837 : Vessel 1 : Truck left with container-90
+837 : Vessel 2 : Crane starts unloading container-88 to truck
+840 : Vessel 2 : Truck returned after transporting container-87
+840 : Vessel 2 : Truck left with container-88
+840 : Vessel 1 : Crane starts unloading container-91 to truck
+843 : Vessel 1 : Truck returned after transporting container-90
+843 : Vessel 1 : Truck left with container-91
+843 : Vessel 2 : Crane starts unloading container-89 to truck
+846 : Vessel 2 : Truck returned after transporting container-88
+846 : Vessel 2 : Truck left with container-89
+846 : Vessel 1 : Crane starts unloading container-92 to truck
+849 : Vessel 1 : Truck returned after transporting container-91
+849 : Vessel 1 : Truck left with container-92
+849 : Vessel 2 : Crane starts unloading container-90 to truck
+852 : Vessel 2 : Truck returned after transporting container-89
+852 : Vessel 2 : Truck left with container-90
+852 : Vessel 1 : Crane starts unloading container-93 to truck
+855 : Vessel 1 : Truck returned after transporting container-92
+855 : Vessel 1 : Truck left with container-93
+855 : Vessel 2 : Crane starts unloading container-91 to truck
+858 : Vessel 2 : Truck returned after transporting container-90
+858 : Vessel 2 : Truck left with container-91
+858 : Vessel 1 : Crane starts unloading container-94 to truck
+861 : Vessel 1 : Truck returned after transporting container-93
+861 : Vessel 1 : Truck left with container-94
+861 : Vessel 2 : Crane starts unloading container-92 to truck
+864 : Vessel 2 : Truck returned after transporting container-91
+864 : Vessel 2 : Truck left with container-92
+864 : Vessel 1 : Crane starts unloading container-95 to truck
+867 : Vessel 1 : Truck returned after transporting container-94
+867 : Vessel 1 : Truck left with container-95
+867 : Vessel 2 : Crane starts unloading container-93 to truck
+870 : Vessel 2 : Truck returned after transporting container-92
+870 : Vessel 2 : Truck left with container-93
+870 : Vessel 1 : Crane starts unloading container-96 to truck
+873 : Vessel 1 : Truck returned after transporting container-95
+873 : Vessel 1 : Truck left with container-96
+873 : Vessel 2 : Crane starts unloading container-94 to truck
+876 : Vessel 2 : Truck returned after transporting container-93
+876 : Vessel 2 : Truck left with container-94
+876 : Vessel 1 : Crane starts unloading container-97 to truck
+879 : Vessel 1 : Truck returned after transporting container-96
+879 : Vessel 1 : Truck left with container-97
+879 : Vessel 2 : Crane starts unloading container-95 to truck
+882 : Vessel 2 : Truck returned after transporting container-94
+882 : Vessel 2 : Truck left with container-95
+882 : Vessel 1 : Crane starts unloading container-98 to truck
+885 : Vessel 1 : Truck returned after transporting container-97
+885 : Vessel 1 : Truck left with container-98
+885 : Vessel 2 : Crane starts unloading container-96 to truck
+886 : Vessel 5 : Arrived at terminal_ _ _ _ _ _<-\___/
+888 : Vessel 2 : Truck returned after transporting container-95
+888 : Vessel 2 : Truck left with container-96
+888 : Vessel 1 : Crane starts unloading container-99 to truck
+891 : Vessel 1 : Truck returned after transporting container-98
+891 : Vessel 1 : Truck left with container-99
+891 : Vessel 2 : Crane starts unloading container-97 to truck
+894 : Vessel 2 : Truck returned after transporting container-96
+894 : Vessel 2 : Truck left with container-97
+894 : Vessel 1 : Crane starts unloading container-100 to truck
+897 : Vessel 1 : Truck returned after transporting container-99
+897 : Vessel 1 : Truck left with container-100
+897 : Vessel 2 : Crane starts unloading container-98 to truck
+900 : Vessel 2 : Truck returned after transporting container-97
+900 : Vessel 2 : Truck left with container-98
+900 : Vessel 1 : Crane starts unloading container-101 to truck
+903 : Vessel 1 : Truck returned after transporting container-100
+903 : Vessel 1 : Truck left with container-101
+903 : Vessel 2 : Crane starts unloading container-99 to truck
+906 : Vessel 2 : Truck returned after transporting container-98
+906 : Vessel 2 : Truck left with container-99
+906 : Vessel 1 : Crane starts unloading container-102 to truck
+909 : Vessel 1 : Truck returned after transporting container-101
+909 : Vessel 1 : Truck left with container-102
+909 : Vessel 2 : Crane starts unloading container-100 to truck
+912 : Vessel 2 : Truck returned after transporting container-99
+912 : Vessel 2 : Truck left with container-100
+912 : Vessel 1 : Crane starts unloading container-103 to truck
+915 : Vessel 1 : Truck returned after transporting container-102
+915 : Vessel 1 : Truck left with container-103
+915 : Vessel 2 : Crane starts unloading container-101 to truck
+918 : Vessel 2 : Truck returned after transporting container-100
+918 : Vessel 2 : Truck left with container-101
+918 : Vessel 1 : Crane starts unloading container-104 to truck
+921 : Vessel 1 : Truck returned after transporting container-103
+921 : Vessel 1 : Truck left with container-104
+921 : Vessel 2 : Crane starts unloading container-102 to truck
+924 : Vessel 2 : Truck returned after transporting container-101
+924 : Vessel 2 : Truck left with container-102
+924 : Vessel 1 : Crane starts unloading container-105 to truck
+927 : Vessel 1 : Truck returned after transporting container-104
+927 : Vessel 1 : Truck left with container-105
+927 : Vessel 2 : Crane starts unloading container-103 to truck
+930 : Vessel 2 : Truck returned after transporting container-102
+930 : Vessel 2 : Truck left with container-103
+930 : Vessel 1 : Crane starts unloading container-106 to truck
+933 : Vessel 1 : Truck returned after transporting container-105
+933 : Vessel 1 : Truck left with container-106
+933 : Vessel 2 : Crane starts unloading container-104 to truck
+936 : Vessel 2 : Truck returned after transporting container-103
+936 : Vessel 2 : Truck left with container-104
+936 : Vessel 1 : Crane starts unloading container-107 to truck
+939 : Vessel 1 : Truck returned after transporting container-106
+939 : Vessel 1 : Truck left with container-107
+939 : Vessel 2 : Crane starts unloading container-105 to truck
+942 : Vessel 2 : Truck returned after transporting container-104
+942 : Vessel 2 : Truck left with container-105
+942 : Vessel 1 : Crane starts unloading container-108 to truck
+945 : Vessel 1 : Truck returned after transporting container-107
+945 : Vessel 1 : Truck left with container-108
+945 : Vessel 2 : Crane starts unloading container-106 to truck
+948 : Vessel 2 : Truck returned after transporting container-105
+948 : Vessel 2 : Truck left with container-106
+948 : Vessel 1 : Crane starts unloading container-109 to truck
+951 : Vessel 1 : Truck returned after transporting container-108
+951 : Vessel 1 : Truck left with container-109
+951 : Vessel 2 : Crane starts unloading container-107 to truck
+954 : Vessel 2 : Truck returned after transporting container-106
+954 : Vessel 2 : Truck left with container-107
+954 : Vessel 1 : Crane starts unloading container-110 to truck
+957 : Vessel 1 : Truck returned after transporting container-109
+957 : Vessel 1 : Truck left with container-110
+957 : Vessel 2 : Crane starts unloading container-108 to truck
+960 : Vessel 2 : Truck returned after transporting container-107
+960 : Vessel 2 : Truck left with container-108
+960 : Vessel 1 : Crane starts unloading container-111 to truck
+963 : Vessel 1 : Truck returned after transporting container-110
+963 : Vessel 1 : Truck left with container-111
+963 : Vessel 2 : Crane starts unloading container-109 to truck
+966 : Vessel 2 : Truck returned after transporting container-108
+966 : Vessel 2 : Truck left with container-109
+966 : Vessel 1 : Crane starts unloading container-112 to truck
+969 : Vessel 1 : Truck returned after transporting container-111
+969 : Vessel 1 : Truck left with container-112
+969 : Vessel 2 : Crane starts unloading container-110 to truck
+972 : Vessel 2 : Truck returned after transporting container-109
+972 : Vessel 2 : Truck left with container-110
+972 : Vessel 1 : Crane starts unloading container-113 to truck
+975 : Vessel 1 : Truck returned after transporting container-112
+975 : Vessel 1 : Truck left with container-113
+975 : Vessel 2 : Crane starts unloading container-111 to truck
+978 : Vessel 2 : Truck returned after transporting container-110
+978 : Vessel 2 : Truck left with container-111
+978 : Vessel 1 : Crane starts unloading container-114 to truck
+981 : Vessel 1 : Truck returned after transporting container-113
+981 : Vessel 1 : Truck left with container-114
+981 : Vessel 2 : Crane starts unloading container-112 to truck
+984 : Vessel 2 : Truck returned after transporting container-111
+984 : Vessel 2 : Truck left with container-112
+984 : Vessel 1 : Crane starts unloading container-115 to truck
+987 : Vessel 1 : Truck returned after transporting container-114
+987 : Vessel 1 : Truck left with container-115
+987 : Vessel 2 : Crane starts unloading container-113 to truck
+990 : Vessel 2 : Truck returned after transporting container-112
+990 : Vessel 2 : Truck left with container-113
+990 : Vessel 1 : Crane starts unloading container-116 to truck
+993 : Vessel 1 : Truck returned after transporting container-115
+993 : Vessel 1 : Truck left with container-116
+993 : Vessel 2 : Crane starts unloading container-114 to truck
+996 : Vessel 2 : Truck returned after transporting container-113
+996 : Vessel 2 : Truck left with container-114
+996 : Vessel 1 : Crane starts unloading container-117 to truck
+999 : Vessel 1 : Truck returned after transporting container-116
+999 : Vessel 1 : Truck left with container-117
+999 : Vessel 2 : Crane starts unloading container-115 to truck
+1002 : Vessel 2 : Truck returned after transporting container-114
+1002 : Vessel 2 : Truck left with container-115
+1002 : Vessel 1 : Crane starts unloading container-118 to truck
+1005 : Vessel 1 : Truck returned after transporting container-117
+1005 : Vessel 1 : Truck left with container-118
+1005 : Vessel 2 : Crane starts unloading container-116 to truck
+1008 : Vessel 2 : Truck returned after transporting container-115
+1008 : Vessel 2 : Truck left with container-116
+1008 : Vessel 1 : Crane starts unloading container-119 to truck
+1011 : Vessel 1 : Truck returned after transporting container-118
+1011 : Vessel 1 : Truck left with container-119
+1011 : Vessel 2 : Crane starts unloading container-117 to truck
+1014 : Vessel 2 : Truck returned after transporting container-116
+1014 : Vessel 2 : Truck left with container-117
+1014 : Vessel 1 : Crane starts unloading container-120 to truck
+1017 : Vessel 1 : Truck returned after transporting container-119
+1017 : Vessel 1 : Truck left with container-120
+1017 : Vessel 2 : Crane starts unloading container-118 to truck
+1020 : Vessel 2 : Truck returned after transporting container-117
+1020 : Vessel 2 : Truck left with container-118
+1020 : Vessel 1 : Crane starts unloading container-121 to truck
+1023 : Vessel 1 : Truck returned after transporting container-120
+1023 : Vessel 1 : Truck left with container-121
+1023 : Vessel 2 : Crane starts unloading container-119 to truck
+1026 : Vessel 2 : Truck returned after transporting container-118
+1026 : Vessel 2 : Truck left with container-119
+1026 : Vessel 1 : Crane starts unloading container-122 to truck
+1029 : Vessel 1 : Truck returned after transporting container-121
+1029 : Vessel 1 : Truck left with container-122
+1029 : Vessel 2 : Crane starts unloading container-120 to truck
+1032 : Vessel 2 : Truck returned after transporting container-119
+1032 : Vessel 2 : Truck left with container-120
+1032 : Vessel 1 : Crane starts unloading container-123 to truck
+1035 : Vessel 1 : Truck returned after transporting container-122
+1035 : Vessel 1 : Truck left with container-123
+1035 : Vessel 2 : Crane starts unloading container-121 to truck
+1038 : Vessel 2 : Truck returned after transporting container-120
+1038 : Vessel 2 : Truck left with container-121
+1038 : Vessel 1 : Crane starts unloading container-124 to truck
+1041 : Vessel 1 : Truck returned after transporting container-123
+1041 : Vessel 1 : Truck left with container-124
+1041 : Vessel 2 : Crane starts unloading container-122 to truck
+1044 : Vessel 2 : Truck returned after transporting container-121
+1044 : Vessel 2 : Truck left with container-122
+1044 : Vessel 1 : Crane starts unloading container-125 to truck
+1047 : Vessel 1 : Truck returned after transporting container-124
+1047 : Vessel 1 : Truck left with container-125
+1047 : Vessel 2 : Crane starts unloading container-123 to truck
+1050 : Vessel 2 : Truck returned after transporting container-122
+1050 : Vessel 2 : Truck left with container-123
+1050 : Vessel 1 : Crane starts unloading container-126 to truck
+1053 : Vessel 1 : Truck returned after transporting container-125
+1053 : Vessel 1 : Truck left with container-126
+1053 : Vessel 2 : Crane starts unloading container-124 to truck
+1056 : Vessel 2 : Truck returned after transporting container-123
+1056 : Vessel 2 : Truck left with container-124
+1056 : Vessel 1 : Crane starts unloading container-127 to truck
+1059 : Vessel 1 : Truck returned after transporting container-126
+1059 : Vessel 1 : Truck left with container-127
+1059 : Vessel 2 : Crane starts unloading container-125 to truck
+1062 : Vessel 2 : Truck returned after transporting container-124
+1062 : Vessel 2 : Truck left with container-125
+1062 : Vessel 1 : Crane starts unloading container-128 to truck
+1065 : Vessel 1 : Truck returned after transporting container-127
+1065 : Vessel 1 : Truck left with container-128
+1065 : Vessel 2 : Crane starts unloading container-126 to truck
+1068 : Vessel 2 : Truck returned after transporting container-125
+1068 : Vessel 2 : Truck left with container-126
+1068 : Vessel 1 : Crane starts unloading container-129 to truck
+1071 : Vessel 1 : Truck returned after transporting container-128
+1071 : Vessel 1 : Truck left with container-129
+1071 : Vessel 2 : Crane starts unloading container-127 to truck
+1074 : Vessel 2 : Truck returned after transporting container-126
+1074 : Vessel 2 : Truck left with container-127
+1074 : Vessel 1 : Crane starts unloading container-130 to truck
+1077 : Vessel 1 : Truck returned after transporting container-129
+1077 : Vessel 1 : Truck left with container-130
+1077 : Vessel 2 : Crane starts unloading container-128 to truck
+1080 : Vessel 2 : Truck returned after transporting container-127
+1080 : Vessel 2 : Truck left with container-128
+1080 : Vessel 1 : Crane starts unloading container-131 to truck
+1083 : Vessel 1 : Truck returned after transporting container-130
+1083 : Vessel 1 : Truck left with container-131
+1083 : Vessel 2 : Crane starts unloading container-129 to truck
+1086 : Vessel 2 : Truck returned after transporting container-128
+1086 : Vessel 2 : Truck left with container-129
+1086 : Vessel 1 : Crane starts unloading container-132 to truck
+1089 : Vessel 1 : Truck returned after transporting container-131
+1089 : Vessel 1 : Truck left with container-132
+1089 : Vessel 2 : Crane starts unloading container-130 to truck
+1092 : Vessel 2 : Truck returned after transporting container-129
+1092 : Vessel 2 : Truck left with container-130
+1092 : Vessel 1 : Crane starts unloading container-133 to truck
+1095 : Vessel 1 : Truck returned after transporting container-132
+1095 : Vessel 1 : Truck left with container-133
+1095 : Vessel 2 : Crane starts unloading container-131 to truck
+1098 : Vessel 2 : Truck returned after transporting container-130
+1098 : Vessel 2 : Truck left with container-131
+1098 : Vessel 1 : Crane starts unloading container-134 to truck
+1101 : Vessel 1 : Truck returned after transporting container-133
+1101 : Vessel 1 : Truck left with container-134
+1101 : Vessel 2 : Crane starts unloading container-132 to truck
+1104 : Vessel 2 : Truck returned after transporting container-131
+1104 : Vessel 2 : Truck left with container-132
+1104 : Vessel 1 : Crane starts unloading container-135 to truck
+1107 : Vessel 1 : Truck returned after transporting container-134
+1107 : Vessel 1 : Truck left with container-135
+1107 : Vessel 2 : Crane starts unloading container-133 to truck
+1110 : Vessel 2 : Truck returned after transporting container-132
+1110 : Vessel 2 : Truck left with container-133
+1110 : Vessel 1 : Crane starts unloading container-136 to truck
+1113 : Vessel 1 : Truck returned after transporting container-135
+1113 : Vessel 1 : Truck left with container-136
+1113 : Vessel 2 : Crane starts unloading container-134 to truck
+1116 : Vessel 2 : Truck returned after transporting container-133
+1116 : Vessel 2 : Truck left with container-134
+1116 : Vessel 1 : Crane starts unloading container-137 to truck
+1119 : Vessel 1 : Truck returned after transporting container-136
+1119 : Vessel 1 : Truck left with container-137
+1119 : Vessel 2 : Crane starts unloading container-135 to truck
+1122 : Vessel 2 : Truck returned after transporting container-134
+1122 : Vessel 2 : Truck left with container-135
+1122 : Vessel 1 : Crane starts unloading container-138 to truck
+1125 : Vessel 1 : Truck returned after transporting container-137
+1125 : Vessel 1 : Truck left with container-138
+1125 : Vessel 2 : Crane starts unloading container-136 to truck
+1128 : Vessel 2 : Truck returned after transporting container-135
+1128 : Vessel 2 : Truck left with container-136
+1128 : Vessel 1 : Crane starts unloading container-139 to truck
+1131 : Vessel 1 : Truck returned after transporting container-138
+1131 : Vessel 1 : Truck left with container-139
+1131 : Vessel 2 : Crane starts unloading container-137 to truck
+1134 : Vessel 2 : Truck returned after transporting container-136
+1134 : Vessel 2 : Truck left with container-137
+1134 : Vessel 1 : Crane starts unloading container-140 to truck
+1137 : Vessel 1 : Truck returned after transporting container-139
+1137 : Vessel 1 : Truck left with container-140
+1137 : Vessel 2 : Crane starts unloading container-138 to truck
+1140 : Vessel 2 : Truck returned after transporting container-137
+1140 : Vessel 2 : Truck left with container-138
+1140 : Vessel 1 : Crane starts unloading container-141 to truck
+1143 : Vessel 1 : Truck returned after transporting container-140
+1143 : Vessel 1 : Truck left with container-141
+1143 : Vessel 2 : Crane starts unloading container-139 to truck
+1146 : Vessel 2 : Truck returned after transporting container-138
+1146 : Vessel 2 : Truck left with container-139
+1146 : Vessel 1 : Crane starts unloading container-142 to truck
+1149 : Vessel 1 : Truck returned after transporting container-141
+1149 : Vessel 1 : Truck left with container-142
+1149 : Vessel 2 : Crane starts unloading container-140 to truck
+1152 : Vessel 2 : Truck returned after transporting container-139
+1152 : Vessel 2 : Truck left with container-140
+1152 : Vessel 1 : Crane starts unloading container-143 to truck
+1155 : Vessel 1 : Truck returned after transporting container-142
+1155 : Vessel 1 : Truck left with container-143
+1155 : Vessel 2 : Crane starts unloading container-141 to truck
+1158 : Vessel 2 : Truck returned after transporting container-140
+1158 : Vessel 2 : Truck left with container-141
+1158 : Vessel 1 : Crane starts unloading container-144 to truck
+1161 : Vessel 1 : Truck returned after transporting container-143
+1161 : Vessel 1 : Truck left with container-144
+1161 : Vessel 2 : Crane starts unloading container-142 to truck
+1164 : Vessel 2 : Truck returned after transporting container-141
+1164 : Vessel 2 : Truck left with container-142
+1164 : Vessel 1 : Crane starts unloading container-145 to truck
+1167 : Vessel 1 : Truck returned after transporting container-144
+1167 : Vessel 1 : Truck left with container-145
+1167 : Vessel 2 : Crane starts unloading container-143 to truck
+1170 : Vessel 2 : Truck returned after transporting container-142
+1170 : Vessel 2 : Truck left with container-143
+1170 : Vessel 1 : Crane starts unloading container-146 to truck
+1173 : Vessel 1 : Truck returned after transporting container-145
+1173 : Vessel 1 : Truck left with container-146
+1173 : Vessel 2 : Crane starts unloading container-144 to truck
+1176 : Vessel 2 : Truck returned after transporting container-143
+1176 : Vessel 2 : Truck left with container-144
+1176 : Vessel 1 : Crane starts unloading container-147 to truck
+1179 : Vessel 1 : Truck returned after transporting container-146
+1179 : Vessel 1 : Truck left with container-147
+1179 : Vessel 2 : Crane starts unloading container-145 to truck
+1182 : Vessel 2 : Truck returned after transporting container-144
+1182 : Vessel 2 : Truck left with container-145
+1182 : Vessel 1 : Crane starts unloading container-148 to truck
+1185 : Vessel 1 : Truck returned after transporting container-147
+1185 : Vessel 1 : Truck left with container-148
+1185 : Vessel 2 : Crane starts unloading container-146 to truck
+1188 : Vessel 2 : Truck returned after transporting container-145
+1188 : Vessel 2 : Truck left with container-146
+1188 : Vessel 1 : Crane starts unloading container-149 to truck
+1191 : Vessel 1 : Truck returned after transporting container-148
+1191 : Vessel 1 : Truck left with container-149
+1191 : Vessel 2 : Crane starts unloading container-147 to truck
+1194 : Vessel 2 : Truck returned after transporting container-146
+1194 : Vessel 2 : Truck left with container-147
+1194 : Vessel 1 : Crane starts unloading container-150 to truck
+1197 : Vessel 1 : Truck returned after transporting container-149
+1197 : Vessel 1 : Truck left with container-150
+1197 : Vessel 1 : Finished unloading and is leaving_ _ _ _ _ \___/->
+1197 : Vessel 2 : Crane starts unloading container-148 to truck
+1197 : Vessel 3 : Berthed
+1200 : Vessel 2 : Truck returned after transporting container-147
+1200 : Vessel 2 : Truck left with container-148
+1200 : Vessel 3 : Crane starts unloading container-1 to truck
+1203 : Vessel 1 : Truck returned after transporting container-150
+1203 : Vessel 3 : Truck left with container-1
+1203 : Vessel 2 : Crane starts unloading container-149 to truck
+1206 : Vessel 2 : Truck returned after transporting container-148
+1206 : Vessel 2 : Truck left with container-149
+1206 : Vessel 3 : Crane starts unloading container-2 to truck
+1209 : Vessel 3 : Truck returned after transporting container-1
+1209 : Vessel 3 : Truck left with container-2
+1209 : Vessel 2 : Crane starts unloading container-150 to truck
+1212 : Vessel 2 : Truck returned after transporting container-149
+1212 : Vessel 2 : Truck left with container-150
+1212 : Vessel 2 : Finished unloading and is leaving_ _ _ _ _ \___/->
+1212 : Vessel 3 : Crane starts unloading container-3 to truck
+1212 : Vessel 4 : Berthed
+1215 : Vessel 3 : Truck returned after transporting container-2
+1215 : Vessel 3 : Truck left with container-3
+1215 : Vessel 4 : Crane starts unloading container-1 to truck
+1218 : Vessel 2 : Truck returned after transporting container-150
+1218 : Vessel 4 : Truck left with container-1
+1218 : Vessel 3 : Crane starts unloading container-4 to truck
+1221 : Vessel 3 : Truck returned after transporting container-3
+1221 : Vessel 3 : Truck left with container-4
+1221 : Vessel 4 : Crane starts unloading container-2 to truck
+1224 : Vessel 4 : Truck returned after transporting container-1
+1224 : Vessel 4 : Truck left with container-2
+1224 : Vessel 3 : Crane starts unloading container-5 to truck
+1225 : Vessel 6 : Arrived at terminal_ _ _ _ _ _<-\___/
+1227 : Vessel 3 : Truck returned after transporting container-4
+1227 : Vessel 3 : Truck left with container-5
+1227 : Vessel 4 : Crane starts unloading container-3 to truck
+1230 : Vessel 4 : Truck returned after transporting container-2
+1230 : Vessel 4 : Truck left with container-3
+1230 : Vessel 3 : Crane starts unloading container-6 to truck
+1233 : Vessel 3 : Truck returned after transporting container-5
+1233 : Vessel 3 : Truck left with container-6
+1233 : Vessel 4 : Crane starts unloading container-4 to truck
+1236 : Vessel 4 : Truck returned after transporting container-3
+1236 : Vessel 4 : Truck left with container-4
+1236 : Vessel 3 : Crane starts unloading container-7 to truck
+1239 : Vessel 3 : Truck returned after transporting container-6
+1239 : Vessel 3 : Truck left with container-7
+1239 : Vessel 4 : Crane starts unloading container-5 to truck
+1242 : Vessel 4 : Truck returned after transporting container-4
+1242 : Vessel 4 : Truck left with container-5
+1242 : Vessel 3 : Crane starts unloading container-8 to truck
+1245 : Vessel 3 : Truck returned after transporting container-7
+1245 : Vessel 3 : Truck left with container-8
+1245 : Vessel 4 : Crane starts unloading container-6 to truck
+1248 : Vessel 4 : Truck returned after transporting container-5
+1248 : Vessel 4 : Truck left with container-6
+1248 : Vessel 3 : Crane starts unloading container-9 to truck
+1251 : Vessel 3 : Truck returned after transporting container-8
+1251 : Vessel 3 : Truck left with container-9
+1251 : Vessel 4 : Crane starts unloading container-7 to truck
+1254 : Vessel 4 : Truck returned after transporting container-6
+1254 : Vessel 4 : Truck left with container-7
+1254 : Vessel 3 : Crane starts unloading container-10 to truck
+1257 : Vessel 3 : Truck returned after transporting container-9
+1257 : Vessel 3 : Truck left with container-10
+1257 : Vessel 4 : Crane starts unloading container-8 to truck
+1260 : Vessel 4 : Truck returned after transporting container-7
+1260 : Vessel 4 : Truck left with container-8
+1260 : Vessel 3 : Crane starts unloading container-11 to truck
+1263 : Vessel 3 : Truck returned after transporting container-10
+1263 : Vessel 3 : Truck left with container-11
+1263 : Vessel 4 : Crane starts unloading container-9 to truck
+1266 : Vessel 4 : Truck returned after transporting container-8
+1266 : Vessel 4 : Truck left with container-9
+1266 : Vessel 3 : Crane starts unloading container-12 to truck
+1269 : Vessel 3 : Truck returned after transporting container-11
+1269 : Vessel 3 : Truck left with container-12
+1269 : Vessel 4 : Crane starts unloading container-10 to truck
+1272 : Vessel 4 : Truck returned after transporting container-9
+1272 : Vessel 4 : Truck left with container-10
+1272 : Vessel 3 : Crane starts unloading container-13 to truck
+1275 : Vessel 3 : Truck returned after transporting container-12
+1275 : Vessel 3 : Truck left with container-13
+1275 : Vessel 4 : Crane starts unloading container-11 to truck
+1278 : Vessel 4 : Truck returned after transporting container-10
+1278 : Vessel 4 : Truck left with container-11
+1278 : Vessel 3 : Crane starts unloading container-14 to truck
+1281 : Vessel 3 : Truck returned after transporting container-13
+1281 : Vessel 3 : Truck left with container-14
+1281 : Vessel 4 : Crane starts unloading container-12 to truck
+1284 : Vessel 4 : Truck returned after transporting container-11
+1284 : Vessel 4 : Truck left with container-12
+1284 : Vessel 3 : Crane starts unloading container-15 to truck
+1287 : Vessel 3 : Truck returned after transporting container-14
+1287 : Vessel 3 : Truck left with container-15
+1287 : Vessel 4 : Crane starts unloading container-13 to truck
+1290 : Vessel 4 : Truck returned after transporting container-12
+1290 : Vessel 4 : Truck left with container-13
+1290 : Vessel 3 : Crane starts unloading container-16 to truck
+1293 : Vessel 3 : Truck returned after transporting container-15
+1293 : Vessel 3 : Truck left with container-16
+1293 : Vessel 4 : Crane starts unloading container-14 to truck
+1296 : Vessel 4 : Truck returned after transporting container-13
+1296 : Vessel 4 : Truck left with container-14
+1296 : Vessel 3 : Crane starts unloading container-17 to truck
+1299 : Vessel 3 : Truck returned after transporting container-16
+1299 : Vessel 3 : Truck left with container-17
+1299 : Vessel 4 : Crane starts unloading container-15 to truck
+1302 : Vessel 4 : Truck returned after transporting container-14
+1302 : Vessel 4 : Truck left with container-15
+1302 : Vessel 3 : Crane starts unloading container-18 to truck
+1305 : Vessel 3 : Truck returned after transporting container-17
+1305 : Vessel 3 : Truck left with container-18
+1305 : Vessel 4 : Crane starts unloading container-16 to truck
+1308 : Vessel 4 : Truck returned after transporting container-15
+1308 : Vessel 4 : Truck left with container-16
+1308 : Vessel 3 : Crane starts unloading container-19 to truck
+1311 : Vessel 3 : Truck returned after transporting container-18
+1311 : Vessel 3 : Truck left with container-19
+1311 : Vessel 4 : Crane starts unloading container-17 to truck
+1314 : Vessel 4 : Truck returned after transporting container-16
+1314 : Vessel 4 : Truck left with container-17
+1314 : Vessel 3 : Crane starts unloading container-20 to truck
+1317 : Vessel 3 : Truck returned after transporting container-19
+1317 : Vessel 3 : Truck left with container-20
+1317 : Vessel 4 : Crane starts unloading container-18 to truck
+1320 : Vessel 4 : Truck returned after transporting container-17
+1320 : Vessel 4 : Truck left with container-18
+1320 : Vessel 3 : Crane starts unloading container-21 to truck
+1323 : Vessel 3 : Truck returned after transporting container-20
+1323 : Vessel 3 : Truck left with container-21
+1323 : Vessel 4 : Crane starts unloading container-19 to truck
+1326 : Vessel 4 : Truck returned after transporting container-18
+1326 : Vessel 4 : Truck left with container-19
+1326 : Vessel 3 : Crane starts unloading container-22 to truck
+1329 : Vessel 3 : Truck returned after transporting container-21
+1329 : Vessel 3 : Truck left with container-22
+1329 : Vessel 4 : Crane starts unloading container-20 to truck
+1332 : Vessel 4 : Truck returned after transporting container-19
+1332 : Vessel 4 : Truck left with container-20
+1332 : Vessel 3 : Crane starts unloading container-23 to truck
+1335 : Vessel 3 : Truck returned after transporting container-22
+1335 : Vessel 3 : Truck left with container-23
+1335 : Vessel 4 : Crane starts unloading container-21 to truck
+1338 : Vessel 4 : Truck returned after transporting container-20
+1338 : Vessel 4 : Truck left with container-21
+1338 : Vessel 3 : Crane starts unloading container-24 to truck
+1341 : Vessel 3 : Truck returned after transporting container-23
+1341 : Vessel 3 : Truck left with container-24
+1341 : Vessel 4 : Crane starts unloading container-22 to truck
+1344 : Vessel 4 : Truck returned after transporting container-21
+1344 : Vessel 4 : Truck left with container-22
+1344 : Vessel 3 : Crane starts unloading container-25 to truck
+1347 : Vessel 3 : Truck returned after transporting container-24
+1347 : Vessel 3 : Truck left with container-25
+1347 : Vessel 4 : Crane starts unloading container-23 to truck
+1350 : Vessel 4 : Truck returned after transporting container-22
+1350 : Vessel 4 : Truck left with container-23
+1350 : Vessel 3 : Crane starts unloading container-26 to truck
+1353 : Vessel 3 : Truck returned after transporting container-25
+1353 : Vessel 3 : Truck left with container-26
+1353 : Vessel 4 : Crane starts unloading container-24 to truck
+1356 : Vessel 4 : Truck returned after transporting container-23
+1356 : Vessel 4 : Truck left with container-24
+1356 : Vessel 3 : Crane starts unloading container-27 to truck
+1359 : Vessel 3 : Truck returned after transporting container-26
+1359 : Vessel 3 : Truck left with container-27
+1359 : Vessel 4 : Crane starts unloading container-25 to truck
+1362 : Vessel 4 : Truck returned after transporting container-24
+1362 : Vessel 4 : Truck left with container-25
+1362 : Vessel 3 : Crane starts unloading container-28 to truck
+1365 : Vessel 3 : Truck returned after transporting container-27
+1365 : Vessel 3 : Truck left with container-28
+1365 : Vessel 4 : Crane starts unloading container-26 to truck
+1368 : Vessel 4 : Truck returned after transporting container-25
+1368 : Vessel 4 : Truck left with container-26
+1368 : Vessel 3 : Crane starts unloading container-29 to truck
+1371 : Vessel 3 : Truck returned after transporting container-28
+1371 : Vessel 3 : Truck left with container-29
+1371 : Vessel 4 : Crane starts unloading container-27 to truck
+1374 : Vessel 4 : Truck returned after transporting container-26
+1374 : Vessel 4 : Truck left with container-27
+1374 : Vessel 3 : Crane starts unloading container-30 to truck
+1377 : Vessel 3 : Truck returned after transporting container-29
+1377 : Vessel 3 : Truck left with container-30
+1377 : Vessel 4 : Crane starts unloading container-28 to truck
+1380 : Vessel 4 : Truck returned after transporting container-27
+1380 : Vessel 4 : Truck left with container-28
+1380 : Vessel 3 : Crane starts unloading container-31 to truck
+1383 : Vessel 3 : Truck returned after transporting container-30
+1383 : Vessel 3 : Truck left with container-31
+1383 : Vessel 4 : Crane starts unloading container-29 to truck
+1386 : Vessel 4 : Truck returned after transporting container-28
+1386 : Vessel 4 : Truck left with container-29
+1386 : Vessel 3 : Crane starts unloading container-32 to truck
+1389 : Vessel 3 : Truck returned after transporting container-31
+1389 : Vessel 3 : Truck left with container-32
+1389 : Vessel 4 : Crane starts unloading container-30 to truck
+1392 : Vessel 4 : Truck returned after transporting container-29
+1392 : Vessel 4 : Truck left with container-30
+1392 : Vessel 3 : Crane starts unloading container-33 to truck
+1395 : Vessel 3 : Truck returned after transporting container-32
+1395 : Vessel 3 : Truck left with container-33
+1395 : Vessel 4 : Crane starts unloading container-31 to truck
+1398 : Vessel 4 : Truck returned after transporting container-30
+1398 : Vessel 4 : Truck left with container-31
+1398 : Vessel 3 : Crane starts unloading container-34 to truck
+1401 : Vessel 3 : Truck returned after transporting container-33
+1401 : Vessel 3 : Truck left with container-34
+1401 : Vessel 4 : Crane starts unloading container-32 to truck
+1404 : Vessel 4 : Truck returned after transporting container-31
+1404 : Vessel 4 : Truck left with container-32
+1404 : Vessel 3 : Crane starts unloading container-35 to truck
+1407 : Vessel 3 : Truck returned after transporting container-34
+1407 : Vessel 3 : Truck left with container-35
+1407 : Vessel 4 : Crane starts unloading container-33 to truck
+1410 : Vessel 4 : Truck returned after transporting container-32
+1410 : Vessel 4 : Truck left with container-33
+1410 : Vessel 3 : Crane starts unloading container-36 to truck
+1413 : Vessel 3 : Truck returned after transporting container-35
+1413 : Vessel 3 : Truck left with container-36
+1413 : Vessel 4 : Crane starts unloading container-34 to truck
+1416 : Vessel 4 : Truck returned after transporting container-33
+1416 : Vessel 4 : Truck left with container-34
+1416 : Vessel 3 : Crane starts unloading container-37 to truck
+1419 : Vessel 3 : Truck returned after transporting container-36
+1419 : Vessel 3 : Truck left with container-37
+1419 : Vessel 4 : Crane starts unloading container-35 to truck
+1422 : Vessel 4 : Truck returned after transporting container-34
+1422 : Vessel 4 : Truck left with container-35
+1422 : Vessel 3 : Crane starts unloading container-38 to truck
+1425 : Vessel 3 : Truck returned after transporting container-37
+1425 : Vessel 3 : Truck left with container-38
+1425 : Vessel 4 : Crane starts unloading container-36 to truck
+1428 : Vessel 4 : Truck returned after transporting container-35
+1428 : Vessel 4 : Truck left with container-36
+1428 : Vessel 3 : Crane starts unloading container-39 to truck
+1431 : Vessel 3 : Truck returned after transporting container-38
+1431 : Vessel 3 : Truck left with container-39
+1431 : Vessel 4 : Crane starts unloading container-37 to truck
+1434 : Vessel 4 : Truck returned after transporting container-36
+1434 : Vessel 4 : Truck left with container-37
+1434 : Vessel 3 : Crane starts unloading container-40 to truck
+1437 : Vessel 3 : Truck returned after transporting container-39
+1437 : Vessel 3 : Truck left with container-40
+1437 : Vessel 4 : Crane starts unloading container-38 to truck
+1440 : Vessel 4 : Truck returned after transporting container-37
+1440 : Vessel 4 : Truck left with container-38
+1440 : Vessel 3 : Crane starts unloading container-41 to truck
+1443 : Vessel 3 : Truck returned after transporting container-40
+1443 : Vessel 3 : Truck left with container-41
+1443 : Vessel 4 : Crane starts unloading container-39 to truck
+1446 : Vessel 4 : Truck returned after transporting container-38
+1446 : Vessel 4 : Truck left with container-39
+1446 : Vessel 3 : Crane starts unloading container-42 to truck
+1449 : Vessel 3 : Truck returned after transporting container-41
+1449 : Vessel 3 : Truck left with container-42
+1449 : Vessel 4 : Crane starts unloading container-40 to truck
+1452 : Vessel 4 : Truck returned after transporting container-39
+1452 : Vessel 4 : Truck left with container-40
+1452 : Vessel 3 : Crane starts unloading container-43 to truck
+1455 : Vessel 3 : Truck returned after transporting container-42
+1455 : Vessel 3 : Truck left with container-43
+1455 : Vessel 4 : Crane starts unloading container-41 to truck
+1458 : Vessel 4 : Truck returned after transporting container-40
+1458 : Vessel 4 : Truck left with container-41
+1458 : Vessel 3 : Crane starts unloading container-44 to truck
+1461 : Vessel 3 : Truck returned after transporting container-43
+1461 : Vessel 3 : Truck left with container-44
+1461 : Vessel 4 : Crane starts unloading container-42 to truck
+1464 : Vessel 4 : Truck returned after transporting container-41
+1464 : Vessel 4 : Truck left with container-42
+1464 : Vessel 3 : Crane starts unloading container-45 to truck
+1467 : Vessel 3 : Truck returned after transporting container-44
+1467 : Vessel 3 : Truck left with container-45
+1467 : Vessel 4 : Crane starts unloading container-43 to truck
+1470 : Vessel 4 : Truck returned after transporting container-42
+1470 : Vessel 4 : Truck left with container-43
+1470 : Vessel 3 : Crane starts unloading container-46 to truck
+1473 : Vessel 3 : Truck returned after transporting container-45
+1473 : Vessel 3 : Truck left with container-46
+1473 : Vessel 4 : Crane starts unloading container-44 to truck
+1476 : Vessel 4 : Truck returned after transporting container-43
+1476 : Vessel 4 : Truck left with container-44
+1476 : Vessel 3 : Crane starts unloading container-47 to truck
+1479 : Vessel 3 : Truck returned after transporting container-46
+1479 : Vessel 3 : Truck left with container-47
+1479 : Vessel 4 : Crane starts unloading container-45 to truck
+1482 : Vessel 4 : Truck returned after transporting container-44
+1482 : Vessel 4 : Truck left with container-45
+1482 : Vessel 3 : Crane starts unloading container-48 to truck
+1485 : Vessel 3 : Truck returned after transporting container-47
+1485 : Vessel 3 : Truck left with container-48
+1485 : Vessel 4 : Crane starts unloading container-46 to truck
+1488 : Vessel 4 : Truck returned after transporting container-45
+1488 : Vessel 4 : Truck left with container-46
+1488 : Vessel 3 : Crane starts unloading container-49 to truck
+1491 : Vessel 3 : Truck returned after transporting container-48
+1491 : Vessel 3 : Truck left with container-49
+1491 : Vessel 4 : Crane starts unloading container-47 to truck
+1494 : Vessel 4 : Truck returned after transporting container-46
+1494 : Vessel 4 : Truck left with container-47
+1494 : Vessel 3 : Crane starts unloading container-50 to truck
+1497 : Vessel 3 : Truck returned after transporting container-49
+1497 : Vessel 3 : Truck left with container-50
+1497 : Vessel 4 : Crane starts unloading container-48 to truck
+1500 : Vessel 4 : Truck returned after transporting container-47
+1500 : Vessel 4 : Truck left with container-48
+1500 : Vessel 3 : Crane starts unloading container-51 to truck
+1503 : Vessel 3 : Truck returned after transporting container-50
+1503 : Vessel 3 : Truck left with container-51
+1503 : Vessel 4 : Crane starts unloading container-49 to truck
+1506 : Vessel 4 : Truck returned after transporting container-48
+1506 : Vessel 4 : Truck left with container-49
+1506 : Vessel 3 : Crane starts unloading container-52 to truck
+1509 : Vessel 3 : Truck returned after transporting container-51
+1509 : Vessel 3 : Truck left with container-52
+1509 : Vessel 4 : Crane starts unloading container-50 to truck
+1512 : Vessel 4 : Truck returned after transporting container-49
+1512 : Vessel 4 : Truck left with container-50
+1512 : Vessel 3 : Crane starts unloading container-53 to truck
+1515 : Vessel 3 : Truck returned after transporting container-52
+1515 : Vessel 3 : Truck left with container-53
+1515 : Vessel 4 : Crane starts unloading container-51 to truck
+1518 : Vessel 4 : Truck returned after transporting container-50
+1518 : Vessel 4 : Truck left with container-51
+1518 : Vessel 3 : Crane starts unloading container-54 to truck
+1521 : Vessel 3 : Truck returned after transporting container-53
+1521 : Vessel 3 : Truck left with container-54
+1521 : Vessel 4 : Crane starts unloading container-52 to truck
+1524 : Vessel 4 : Truck returned after transporting container-51
+1524 : Vessel 4 : Truck left with container-52
+1524 : Vessel 3 : Crane starts unloading container-55 to truck
+1527 : Vessel 3 : Truck returned after transporting container-54
+1527 : Vessel 3 : Truck left with container-55
+1527 : Vessel 4 : Crane starts unloading container-53 to truck
+1530 : Vessel 4 : Truck returned after transporting container-52
+1530 : Vessel 4 : Truck left with container-53
+1530 : Vessel 3 : Crane starts unloading container-56 to truck
+1533 : Vessel 3 : Truck returned after transporting container-55
+1533 : Vessel 3 : Truck left with container-56
+1533 : Vessel 4 : Crane starts unloading container-54 to truck
+1536 : Vessel 4 : Truck returned after transporting container-53
+1536 : Vessel 4 : Truck left with container-54
+1536 : Vessel 3 : Crane starts unloading container-57 to truck
+1539 : Vessel 3 : Truck returned after transporting container-56
+1539 : Vessel 3 : Truck left with container-57
+1539 : Vessel 4 : Crane starts unloading container-55 to truck
+1542 : Vessel 4 : Truck returned after transporting container-54
+1542 : Vessel 4 : Truck left with container-55
+1542 : Vessel 3 : Crane starts unloading container-58 to truck
+1545 : Vessel 3 : Truck returned after transporting container-57
+1545 : Vessel 3 : Truck left with container-58
+1545 : Vessel 4 : Crane starts unloading container-56 to truck
+1548 : Vessel 4 : Truck returned after transporting container-55
+1548 : Vessel 4 : Truck left with container-56
+1548 : Vessel 3 : Crane starts unloading container-59 to truck
+1551 : Vessel 3 : Truck returned after transporting container-58
+1551 : Vessel 3 : Truck left with container-59
+1551 : Vessel 4 : Crane starts unloading container-57 to truck
+1554 : Vessel 4 : Truck returned after transporting container-56
+1554 : Vessel 4 : Truck left with container-57
+1554 : Vessel 3 : Crane starts unloading container-60 to truck
+1557 : Vessel 3 : Truck returned after transporting container-59
+1557 : Vessel 3 : Truck left with container-60
+1557 : Vessel 4 : Crane starts unloading container-58 to truck
+1560 : Vessel 4 : Truck returned after transporting container-57
+1560 : Vessel 4 : Truck left with container-58
+1560 : Vessel 3 : Crane starts unloading container-61 to truck
+1563 : Vessel 3 : Truck returned after transporting container-60
+1563 : Vessel 3 : Truck left with container-61
+1563 : Vessel 4 : Crane starts unloading container-59 to truck
+1566 : Vessel 4 : Truck returned after transporting container-58
+1566 : Vessel 4 : Truck left with container-59
+1566 : Vessel 3 : Crane starts unloading container-62 to truck
+1569 : Vessel 3 : Truck returned after transporting container-61
+1569 : Vessel 3 : Truck left with container-62
+1569 : Vessel 4 : Crane starts unloading container-60 to truck
+1572 : Vessel 4 : Truck returned after transporting container-59
+1572 : Vessel 4 : Truck left with container-60
+1572 : Vessel 3 : Crane starts unloading container-63 to truck
+1575 : Vessel 3 : Truck returned after transporting container-62
+1575 : Vessel 3 : Truck left with container-63
+1575 : Vessel 4 : Crane starts unloading container-61 to truck
+1578 : Vessel 4 : Truck returned after transporting container-60
+1578 : Vessel 4 : Truck left with container-61
+1578 : Vessel 3 : Crane starts unloading container-64 to truck
+1581 : Vessel 3 : Truck returned after transporting container-63
+1581 : Vessel 3 : Truck left with container-64
+1581 : Vessel 4 : Crane starts unloading container-62 to truck
+1584 : Vessel 4 : Truck returned after transporting container-61
+1584 : Vessel 4 : Truck left with container-62
+1584 : Vessel 3 : Crane starts unloading container-65 to truck
+1587 : Vessel 3 : Truck returned after transporting container-64
+1587 : Vessel 3 : Truck left with container-65
+1587 : Vessel 4 : Crane starts unloading container-63 to truck
+1590 : Vessel 4 : Truck returned after transporting container-62
+1590 : Vessel 4 : Truck left with container-63
+1590 : Vessel 3 : Crane starts unloading container-66 to truck
+1593 : Vessel 3 : Truck returned after transporting container-65
+1593 : Vessel 3 : Truck left with container-66
+1593 : Vessel 4 : Crane starts unloading container-64 to truck
+1596 : Vessel 4 : Truck returned after transporting container-63
+1596 : Vessel 4 : Truck left with container-64
+1596 : Vessel 3 : Crane starts unloading container-67 to truck
+1599 : Vessel 3 : Truck returned after transporting container-66
+1599 : Vessel 3 : Truck left with container-67
+1599 : Vessel 4 : Crane starts unloading container-65 to truck
+1602 : Vessel 4 : Truck returned after transporting container-64
+1602 : Vessel 4 : Truck left with container-65
+1602 : Vessel 3 : Crane starts unloading container-68 to truck
+1605 : Vessel 3 : Truck returned after transporting container-67
+1605 : Vessel 3 : Truck left with container-68
+1605 : Vessel 4 : Crane starts unloading container-66 to truck
+1608 : Vessel 4 : Truck returned after transporting container-65
+1608 : Vessel 4 : Truck left with container-66
+1608 : Vessel 3 : Crane starts unloading container-69 to truck
+1611 : Vessel 3 : Truck returned after transporting container-68
+1611 : Vessel 3 : Truck left with container-69
+1611 : Vessel 4 : Crane starts unloading container-67 to truck
+1614 : Vessel 4 : Truck returned after transporting container-66
+1614 : Vessel 4 : Truck left with container-67
+1614 : Vessel 3 : Crane starts unloading container-70 to truck
+1617 : Vessel 3 : Truck returned after transporting container-69
+1617 : Vessel 3 : Truck left with container-70
+1617 : Vessel 4 : Crane starts unloading container-68 to truck
+1620 : Vessel 4 : Truck returned after transporting container-67
+1620 : Vessel 4 : Truck left with container-68
+1620 : Vessel 3 : Crane starts unloading container-71 to truck
+1623 : Vessel 3 : Truck returned after transporting container-70
+1623 : Vessel 3 : Truck left with container-71
+1623 : Vessel 4 : Crane starts unloading container-69 to truck
+1626 : Vessel 4 : Truck returned after transporting container-68
+1626 : Vessel 4 : Truck left with container-69
+1626 : Vessel 3 : Crane starts unloading container-72 to truck
+1629 : Vessel 3 : Truck returned after transporting container-71
+1629 : Vessel 3 : Truck left with container-72
+1629 : Vessel 4 : Crane starts unloading container-70 to truck
+1632 : Vessel 4 : Truck returned after transporting container-69
+1632 : Vessel 4 : Truck left with container-70
+1632 : Vessel 3 : Crane starts unloading container-73 to truck
+1635 : Vessel 3 : Truck returned after transporting container-72
+1635 : Vessel 3 : Truck left with container-73
+1635 : Vessel 4 : Crane starts unloading container-71 to truck
+1638 : Vessel 4 : Truck returned after transporting container-70
+1638 : Vessel 4 : Truck left with container-71
+1638 : Vessel 3 : Crane starts unloading container-74 to truck
+1641 : Vessel 3 : Truck returned after transporting container-73
+1641 : Vessel 3 : Truck left with container-74
+1641 : Vessel 4 : Crane starts unloading container-72 to truck
+1644 : Vessel 4 : Truck returned after transporting container-71
+1644 : Vessel 4 : Truck left with container-72
+1644 : Vessel 3 : Crane starts unloading container-75 to truck
+1647 : Vessel 3 : Truck returned after transporting container-74
+1647 : Vessel 3 : Truck left with container-75
+1647 : Vessel 4 : Crane starts unloading container-73 to truck
+1650 : Vessel 4 : Truck returned after transporting container-72
+1650 : Vessel 4 : Truck left with container-73
+1650 : Vessel 3 : Crane starts unloading container-76 to truck
+1653 : Vessel 3 : Truck returned after transporting container-75
+1653 : Vessel 3 : Truck left with container-76
+1653 : Vessel 4 : Crane starts unloading container-74 to truck
+1656 : Vessel 4 : Truck returned after transporting container-73
+1656 : Vessel 4 : Truck left with container-74
+1656 : Vessel 3 : Crane starts unloading container-77 to truck
+1659 : Vessel 3 : Truck returned after transporting container-76
+1659 : Vessel 3 : Truck left with container-77
+1659 : Vessel 4 : Crane starts unloading container-75 to truck
+1662 : Vessel 4 : Truck returned after transporting container-74
+1662 : Vessel 4 : Truck left with container-75
+1662 : Vessel 3 : Crane starts unloading container-78 to truck
+1665 : Vessel 3 : Truck returned after transporting container-77
+1665 : Vessel 3 : Truck left with container-78
+1665 : Vessel 4 : Crane starts unloading container-76 to truck
+1668 : Vessel 4 : Truck returned after transporting container-75
+1668 : Vessel 4 : Truck left with container-76
+1668 : Vessel 3 : Crane starts unloading container-79 to truck
+1671 : Vessel 3 : Truck returned after transporting container-78
+1671 : Vessel 3 : Truck left with container-79
+1671 : Vessel 4 : Crane starts unloading container-77 to truck
+1674 : Vessel 4 : Truck returned after transporting container-76
+1674 : Vessel 4 : Truck left with container-77
+1674 : Vessel 3 : Crane starts unloading container-80 to truck
+1677 : Vessel 3 : Truck returned after transporting container-79
+1677 : Vessel 3 : Truck left with container-80
+1677 : Vessel 4 : Crane starts unloading container-78 to truck
+1680 : Vessel 4 : Truck returned after transporting container-77
+1680 : Vessel 4 : Truck left with container-78
+1680 : Vessel 3 : Crane starts unloading container-81 to truck
+1683 : Vessel 3 : Truck returned after transporting container-80
+1683 : Vessel 3 : Truck left with container-81
+1683 : Vessel 4 : Crane starts unloading container-79 to truck
+1686 : Vessel 4 : Truck returned after transporting container-78
+1686 : Vessel 4 : Truck left with container-79
+1686 : Vessel 3 : Crane starts unloading container-82 to truck
+1689 : Vessel 3 : Truck returned after transporting container-81
+1689 : Vessel 3 : Truck left with container-82
+1689 : Vessel 4 : Crane starts unloading container-80 to truck
+1692 : Vessel 4 : Truck returned after transporting container-79
+1692 : Vessel 4 : Truck left with container-80
+1692 : Vessel 3 : Crane starts unloading container-83 to truck
+1695 : Vessel 3 : Truck returned after transporting container-82
+1695 : Vessel 3 : Truck left with container-83
+1695 : Vessel 4 : Crane starts unloading container-81 to truck
+1698 : Vessel 4 : Truck returned after transporting container-80
+1698 : Vessel 4 : Truck left with container-81
+1698 : Vessel 3 : Crane starts unloading container-84 to truck
+1701 : Vessel 3 : Truck returned after transporting container-83
+1701 : Vessel 3 : Truck left with container-84
+1701 : Vessel 4 : Crane starts unloading container-82 to truck
+1704 : Vessel 4 : Truck returned after transporting container-81
+1704 : Vessel 4 : Truck left with container-82
+1704 : Vessel 3 : Crane starts unloading container-85 to truck
+1707 : Vessel 3 : Truck returned after transporting container-84
+1707 : Vessel 3 : Truck left with container-85
+1707 : Vessel 4 : Crane starts unloading container-83 to truck
+1710 : Vessel 4 : Truck returned after transporting container-82
+1710 : Vessel 4 : Truck left with container-83
+1710 : Vessel 3 : Crane starts unloading container-86 to truck
+1713 : Vessel 3 : Truck returned after transporting container-85
+1713 : Vessel 3 : Truck left with container-86
+1713 : Vessel 4 : Crane starts unloading container-84 to truck
+1716 : Vessel 4 : Truck returned after transporting container-83
+1716 : Vessel 4 : Truck left with container-84
+1716 : Vessel 3 : Crane starts unloading container-87 to truck
+1719 : Vessel 3 : Truck returned after transporting container-86
+1719 : Vessel 3 : Truck left with container-87
+1719 : Vessel 4 : Crane starts unloading container-85 to truck
+1722 : Vessel 4 : Truck returned after transporting container-84
+1722 : Vessel 4 : Truck left with container-85
+1722 : Vessel 3 : Crane starts unloading container-88 to truck
+1725 : Vessel 3 : Truck returned after transporting container-87
+1725 : Vessel 3 : Truck left with container-88
+1725 : Vessel 4 : Crane starts unloading container-86 to truck
+1728 : Vessel 4 : Truck returned after transporting container-85
+1728 : Vessel 4 : Truck left with container-86
+1728 : Vessel 3 : Crane starts unloading container-89 to truck
+1731 : Vessel 3 : Truck returned after transporting container-88
+1731 : Vessel 3 : Truck left with container-89
+1731 : Vessel 4 : Crane starts unloading container-87 to truck
+1734 : Vessel 4 : Truck returned after transporting container-86
+1734 : Vessel 4 : Truck left with container-87
+1734 : Vessel 3 : Crane starts unloading container-90 to truck
+1737 : Vessel 3 : Truck returned after transporting container-89
+1737 : Vessel 3 : Truck left with container-90
+1737 : Vessel 4 : Crane starts unloading container-88 to truck
+1740 : Vessel 4 : Truck returned after transporting container-87
+1740 : Vessel 4 : Truck left with container-88
+1740 : Vessel 3 : Crane starts unloading container-91 to truck
+1743 : Vessel 3 : Truck returned after transporting container-90
+1743 : Vessel 3 : Truck left with container-91
+1743 : Vessel 4 : Crane starts unloading container-89 to truck
+1746 : Vessel 4 : Truck returned after transporting container-88
+1746 : Vessel 4 : Truck left with container-89
+1746 : Vessel 3 : Crane starts unloading container-92 to truck
+1749 : Vessel 3 : Truck returned after transporting container-91
+1749 : Vessel 3 : Truck left with container-92
+1749 : Vessel 4 : Crane starts unloading container-90 to truck
+1752 : Vessel 4 : Truck returned after transporting container-89
+1752 : Vessel 4 : Truck left with container-90
+1752 : Vessel 3 : Crane starts unloading container-93 to truck
+1755 : Vessel 3 : Truck returned after transporting container-92
+1755 : Vessel 3 : Truck left with container-93
+1755 : Vessel 4 : Crane starts unloading container-91 to truck
+1758 : Vessel 4 : Truck returned after transporting container-90
+1758 : Vessel 4 : Truck left with container-91
+1758 : Vessel 3 : Crane starts unloading container-94 to truck
+1761 : Vessel 3 : Truck returned after transporting container-93
+1761 : Vessel 3 : Truck left with container-94
+1761 : Vessel 4 : Crane starts unloading container-92 to truck
+1764 : Vessel 4 : Truck returned after transporting container-91
+1764 : Vessel 4 : Truck left with container-92
+1764 : Vessel 3 : Crane starts unloading container-95 to truck
+1767 : Vessel 3 : Truck returned after transporting container-94
+1767 : Vessel 3 : Truck left with container-95
+1767 : Vessel 4 : Crane starts unloading container-93 to truck
+1770 : Vessel 4 : Truck returned after transporting container-92
+1770 : Vessel 4 : Truck left with container-93
+1770 : Vessel 3 : Crane starts unloading container-96 to truck
+1773 : Vessel 3 : Truck returned after transporting container-95
+1773 : Vessel 3 : Truck left with container-96
+1773 : Vessel 4 : Crane starts unloading container-94 to truck
+1776 : Vessel 4 : Truck returned after transporting container-93
+1776 : Vessel 4 : Truck left with container-94
+1776 : Vessel 3 : Crane starts unloading container-97 to truck
+1779 : Vessel 3 : Truck returned after transporting container-96
+1779 : Vessel 3 : Truck left with container-97
+1779 : Vessel 4 : Crane starts unloading container-95 to truck
+1782 : Vessel 4 : Truck returned after transporting container-94
+1782 : Vessel 4 : Truck left with container-95
+1782 : Vessel 3 : Crane starts unloading container-98 to truck
+1785 : Vessel 3 : Truck returned after transporting container-97
+1785 : Vessel 3 : Truck left with container-98
+1785 : Vessel 4 : Crane starts unloading container-96 to truck
+1788 : Vessel 4 : Truck returned after transporting container-95
+1788 : Vessel 4 : Truck left with container-96
+1788 : Vessel 3 : Crane starts unloading container-99 to truck
+1791 : Vessel 3 : Truck returned after transporting container-98
+1791 : Vessel 3 : Truck left with container-99
+1791 : Vessel 4 : Crane starts unloading container-97 to truck
+1794 : Vessel 4 : Truck returned after transporting container-96
+1794 : Vessel 4 : Truck left with container-97
+1794 : Vessel 3 : Crane starts unloading container-100 to truck
+1797 : Vessel 3 : Truck returned after transporting container-99
+1797 : Vessel 3 : Truck left with container-100
+1797 : Vessel 4 : Crane starts unloading container-98 to truck
+1800 : Vessel 4 : Truck returned after transporting container-97
+1800 : Vessel 4 : Truck left with container-98
+1800 : Vessel 3 : Crane starts unloading container-101 to truck
+1803 : Vessel 3 : Truck returned after transporting container-100
+1803 : Vessel 3 : Truck left with container-101
+1803 : Vessel 4 : Crane starts unloading container-99 to truck
+1806 : Vessel 4 : Truck returned after transporting container-98
+1806 : Vessel 4 : Truck left with container-99
+1806 : Vessel 3 : Crane starts unloading container-102 to truck
+1809 : Vessel 3 : Truck returned after transporting container-101
+1809 : Vessel 3 : Truck left with container-102
+1809 : Vessel 4 : Crane starts unloading container-100 to truck
+1812 : Vessel 4 : Truck returned after transporting container-99
+1812 : Vessel 4 : Truck left with container-100
+1812 : Vessel 3 : Crane starts unloading container-103 to truck
+1815 : Vessel 3 : Truck returned after transporting container-102
+1815 : Vessel 3 : Truck left with container-103
+1815 : Vessel 4 : Crane starts unloading container-101 to truck
+1818 : Vessel 4 : Truck returned after transporting container-100
+1818 : Vessel 4 : Truck left with container-101
+1818 : Vessel 3 : Crane starts unloading container-104 to truck
+1821 : Vessel 3 : Truck returned after transporting container-103
+1821 : Vessel 3 : Truck left with container-104
+1821 : Vessel 4 : Crane starts unloading container-102 to truck
+1824 : Vessel 4 : Truck returned after transporting container-101
+1824 : Vessel 4 : Truck left with container-102
+1824 : Vessel 3 : Crane starts unloading container-105 to truck
+1827 : Vessel 3 : Truck returned after transporting container-104
+1827 : Vessel 3 : Truck left with container-105
+1827 : Vessel 4 : Crane starts unloading container-103 to truck
+1830 : Vessel 4 : Truck returned after transporting container-102
+1830 : Vessel 4 : Truck left with container-103
+1830 : Vessel 3 : Crane starts unloading container-106 to truck
+1833 : Vessel 3 : Truck returned after transporting container-105
+1833 : Vessel 3 : Truck left with container-106
+1833 : Vessel 4 : Crane starts unloading container-104 to truck
+1836 : Vessel 4 : Truck returned after transporting container-103
+1836 : Vessel 4 : Truck left with container-104
+1836 : Vessel 3 : Crane starts unloading container-107 to truck
+1839 : Vessel 3 : Truck returned after transporting container-106
+1839 : Vessel 3 : Truck left with container-107
+1839 : Vessel 4 : Crane starts unloading container-105 to truck
+1842 : Vessel 4 : Truck returned after transporting container-104
+1842 : Vessel 4 : Truck left with container-105
+1842 : Vessel 3 : Crane starts unloading container-108 to truck
+1845 : Vessel 3 : Truck returned after transporting container-107
+1845 : Vessel 3 : Truck left with container-108
+1845 : Vessel 4 : Crane starts unloading container-106 to truck
+1848 : Vessel 4 : Truck returned after transporting container-105
+1848 : Vessel 4 : Truck left with container-106
+1848 : Vessel 3 : Crane starts unloading container-109 to truck
+1851 : Vessel 3 : Truck returned after transporting container-108
+1851 : Vessel 3 : Truck left with container-109
+1851 : Vessel 4 : Crane starts unloading container-107 to truck
+1854 : Vessel 4 : Truck returned after transporting container-106
+1854 : Vessel 4 : Truck left with container-107
+1854 : Vessel 3 : Crane starts unloading container-110 to truck
+1857 : Vessel 3 : Truck returned after transporting container-109
+1857 : Vessel 3 : Truck left with container-110
+1857 : Vessel 4 : Crane starts unloading container-108 to truck
+1860 : Vessel 4 : Truck returned after transporting container-107
+1860 : Vessel 4 : Truck left with container-108
+1860 : Vessel 3 : Crane starts unloading container-111 to truck
+1863 : Vessel 3 : Truck returned after transporting container-110
+1863 : Vessel 3 : Truck left with container-111
+1863 : Vessel 4 : Crane starts unloading container-109 to truck
+1866 : Vessel 4 : Truck returned after transporting container-108
+1866 : Vessel 4 : Truck left with container-109
+1866 : Vessel 3 : Crane starts unloading container-112 to truck
+1869 : Vessel 3 : Truck returned after transporting container-111
+1869 : Vessel 3 : Truck left with container-112
+1869 : Vessel 4 : Crane starts unloading container-110 to truck
+1872 : Vessel 4 : Truck returned after transporting container-109
+1872 : Vessel 4 : Truck left with container-110
+1872 : Vessel 3 : Crane starts unloading container-113 to truck
+1875 : Vessel 3 : Truck returned after transporting container-112
+1875 : Vessel 3 : Truck left with container-113
+1875 : Vessel 4 : Crane starts unloading container-111 to truck
+1878 : Vessel 4 : Truck returned after transporting container-110
+1878 : Vessel 4 : Truck left with container-111
+1878 : Vessel 3 : Crane starts unloading container-114 to truck
+1881 : Vessel 3 : Truck returned after transporting container-113
+1881 : Vessel 3 : Truck left with container-114
+1881 : Vessel 4 : Crane starts unloading container-112 to truck
+1884 : Vessel 4 : Truck returned after transporting container-111
+1884 : Vessel 4 : Truck left with container-112
+1884 : Vessel 3 : Crane starts unloading container-115 to truck
+1887 : Vessel 3 : Truck returned after transporting container-114
+1887 : Vessel 3 : Truck left with container-115
+1887 : Vessel 4 : Crane starts unloading container-113 to truck
+1890 : Vessel 4 : Truck returned after transporting container-112
+1890 : Vessel 4 : Truck left with container-113
+1890 : Vessel 3 : Crane starts unloading container-116 to truck
+1893 : Vessel 7 : Arrived at terminal_ _ _ _ _ _<-\___/
+1893 : Vessel 3 : Truck returned after transporting container-115
+1893 : Vessel 3 : Truck left with container-116
+1893 : Vessel 4 : Crane starts unloading container-114 to truck
+1896 : Vessel 4 : Truck returned after transporting container-113
+1896 : Vessel 4 : Truck left with container-114
+1896 : Vessel 3 : Crane starts unloading container-117 to truck
+1899 : Vessel 3 : Truck returned after transporting container-116
+1899 : Vessel 3 : Truck left with container-117
+1899 : Vessel 4 : Crane starts unloading container-115 to truck
+1902 : Vessel 4 : Truck returned after transporting container-114
+1902 : Vessel 4 : Truck left with container-115
+1902 : Vessel 3 : Crane starts unloading container-118 to truck
+1905 : Vessel 3 : Truck returned after transporting container-117
+1905 : Vessel 3 : Truck left with container-118
+1905 : Vessel 4 : Crane starts unloading container-116 to truck
+1908 : Vessel 4 : Truck returned after transporting container-115
+1908 : Vessel 4 : Truck left with container-116
+1908 : Vessel 3 : Crane starts unloading container-119 to truck
+1911 : Vessel 3 : Truck returned after transporting container-118
+1911 : Vessel 3 : Truck left with container-119
+1911 : Vessel 4 : Crane starts unloading container-117 to truck
+1914 : Vessel 4 : Truck returned after transporting container-116
+1914 : Vessel 4 : Truck left with container-117
+1914 : Vessel 3 : Crane starts unloading container-120 to truck
+1917 : Vessel 3 : Truck returned after transporting container-119
+1917 : Vessel 3 : Truck left with container-120
+1917 : Vessel 4 : Crane starts unloading container-118 to truck
+1920 : Vessel 4 : Truck returned after transporting container-117
+1920 : Vessel 4 : Truck left with container-118
+1920 : Vessel 3 : Crane starts unloading container-121 to truck
+1920 : Vessel 8 : Arrived at terminal_ _ _ _ _ _<-\___/
+1923 : Vessel 3 : Truck returned after transporting container-120
+1923 : Vessel 3 : Truck left with container-121
+1923 : Vessel 4 : Crane starts unloading container-119 to truck
+1926 : Vessel 4 : Truck returned after transporting container-118
+1926 : Vessel 4 : Truck left with container-119
+1926 : Vessel 3 : Crane starts unloading container-122 to truck
+1929 : Vessel 3 : Truck returned after transporting container-121
+1929 : Vessel 3 : Truck left with container-122
+1929 : Vessel 4 : Crane starts unloading container-120 to truck
+1932 : Vessel 4 : Truck returned after transporting container-119
+1932 : Vessel 4 : Truck left with container-120
+1932 : Vessel 3 : Crane starts unloading container-123 to truck
+1935 : Vessel 3 : Truck returned after transporting container-122
+1935 : Vessel 3 : Truck left with container-123
+1935 : Vessel 4 : Crane starts unloading container-121 to truck
+1938 : Vessel 4 : Truck returned after transporting container-120
+1938 : Vessel 4 : Truck left with container-121
+1938 : Vessel 3 : Crane starts unloading container-124 to truck
+1941 : Vessel 3 : Truck returned after transporting container-123
+1941 : Vessel 3 : Truck left with container-124
+1941 : Vessel 4 : Crane starts unloading container-122 to truck
+1944 : Vessel 4 : Truck returned after transporting container-121
+1944 : Vessel 4 : Truck left with container-122
+1944 : Vessel 3 : Crane starts unloading container-125 to truck
+1947 : Vessel 3 : Truck returned after transporting container-124
+1947 : Vessel 3 : Truck left with container-125
+1947 : Vessel 4 : Crane starts unloading container-123 to truck
+1950 : Vessel 4 : Truck returned after transporting container-122
+1950 : Vessel 4 : Truck left with container-123
+1950 : Vessel 3 : Crane starts unloading container-126 to truck
+1953 : Vessel 3 : Truck returned after transporting container-125
+1953 : Vessel 3 : Truck left with container-126
+1953 : Vessel 4 : Crane starts unloading container-124 to truck
+1956 : Vessel 4 : Truck returned after transporting container-123
+1956 : Vessel 4 : Truck left with container-124
+1956 : Vessel 3 : Crane starts unloading container-127 to truck
+1959 : Vessel 3 : Truck returned after transporting container-126
+1959 : Vessel 3 : Truck left with container-127
+1959 : Vessel 4 : Crane starts unloading container-125 to truck
+1962 : Vessel 4 : Truck returned after transporting container-124
+1962 : Vessel 4 : Truck left with container-125
+1962 : Vessel 3 : Crane starts unloading container-128 to truck
+1965 : Vessel 3 : Truck returned after transporting container-127
+1965 : Vessel 3 : Truck left with container-128
+1965 : Vessel 4 : Crane starts unloading container-126 to truck
+1968 : Vessel 4 : Truck returned after transporting container-125
+1968 : Vessel 4 : Truck left with container-126
+1968 : Vessel 3 : Crane starts unloading container-129 to truck
+1971 : Vessel 3 : Truck returned after transporting container-128
+1971 : Vessel 3 : Truck left with container-129
+1971 : Vessel 4 : Crane starts unloading container-127 to truck
+1974 : Vessel 4 : Truck returned after transporting container-126
+1974 : Vessel 4 : Truck left with container-127
+1974 : Vessel 3 : Crane starts unloading container-130 to truck
+1977 : Vessel 3 : Truck returned after transporting container-129
+1977 : Vessel 3 : Truck left with container-130
+1977 : Vessel 4 : Crane starts unloading container-128 to truck
+1980 : Vessel 4 : Truck returned after transporting container-127
+1980 : Vessel 4 : Truck left with container-128
+1980 : Vessel 3 : Crane starts unloading container-131 to truck
+1983 : Vessel 3 : Truck returned after transporting container-130
+1983 : Vessel 3 : Truck left with container-131
+1983 : Vessel 4 : Crane starts unloading container-129 to truck
+1986 : Vessel 4 : Truck returned after transporting container-128
+1986 : Vessel 4 : Truck left with container-129
+1986 : Vessel 3 : Crane starts unloading container-132 to truck
+1989 : Vessel 3 : Truck returned after transporting container-131
+1989 : Vessel 3 : Truck left with container-132
+1989 : Vessel 4 : Crane starts unloading container-130 to truck
+1992 : Vessel 4 : Truck returned after transporting container-129
+1992 : Vessel 4 : Truck left with container-130
+1992 : Vessel 3 : Crane starts unloading container-133 to truck
+1995 : Vessel 3 : Truck returned after transporting container-132
+1995 : Vessel 3 : Truck left with container-133
+1995 : Vessel 4 : Crane starts unloading container-131 to truck
+1998 : Vessel 4 : Truck returned after transporting container-130
+1998 : Vessel 4 : Truck left with container-131
+1998 : Vessel 3 : Crane starts unloading container-134 to truck
+2001 : Vessel 3 : Truck returned after transporting container-133
+2001 : Vessel 3 : Truck left with container-134
+2001 : Vessel 4 : Crane starts unloading container-132 to truck
+2004 : Vessel 4 : Truck returned after transporting container-131
+2004 : Vessel 4 : Truck left with container-132
+2004 : Vessel 3 : Crane starts unloading container-135 to truck
+2007 : Vessel 3 : Truck returned after transporting container-134
+2007 : Vessel 3 : Truck left with container-135
+2007 : Vessel 4 : Crane starts unloading container-133 to truck
+2010 : Vessel 4 : Truck returned after transporting container-132
+2010 : Vessel 4 : Truck left with container-133
+2010 : Vessel 3 : Crane starts unloading container-136 to truck
+2013 : Vessel 3 : Truck returned after transporting container-135
+2013 : Vessel 3 : Truck left with container-136
+2013 : Vessel 4 : Crane starts unloading container-134 to truck
+2016 : Vessel 4 : Truck returned after transporting container-133
+2016 : Vessel 4 : Truck left with container-134
+2016 : Vessel 3 : Crane starts unloading container-137 to truck
+2019 : Vessel 3 : Truck returned after transporting container-136
+2019 : Vessel 3 : Truck left with container-137
+2019 : Vessel 4 : Crane starts unloading container-135 to truck
+2022 : Vessel 4 : Truck returned after transporting container-134
+2022 : Vessel 4 : Truck left with container-135
+2022 : Vessel 3 : Crane starts unloading container-138 to truck
+2025 : Vessel 3 : Truck returned after transporting container-137
+2025 : Vessel 3 : Truck left with container-138
+2025 : Vessel 4 : Crane starts unloading container-136 to truck
+2028 : Vessel 4 : Truck returned after transporting container-135
+2028 : Vessel 4 : Truck left with container-136
+2028 : Vessel 3 : Crane starts unloading container-139 to truck
+2031 : Vessel 3 : Truck returned after transporting container-138
+2031 : Vessel 3 : Truck left with container-139
+2031 : Vessel 4 : Crane starts unloading container-137 to truck
+2034 : Vessel 4 : Truck returned after transporting container-136
+2034 : Vessel 4 : Truck left with container-137
+2034 : Vessel 3 : Crane starts unloading container-140 to truck
+2037 : Vessel 3 : Truck returned after transporting container-139
+2037 : Vessel 3 : Truck left with container-140
+2037 : Vessel 4 : Crane starts unloading container-138 to truck
+2040 : Vessel 4 : Truck returned after transporting container-137
+2040 : Vessel 4 : Truck left with container-138
+2040 : Vessel 3 : Crane starts unloading container-141 to truck
+2043 : Vessel 3 : Truck returned after transporting container-140
+2043 : Vessel 3 : Truck left with container-141
+2043 : Vessel 4 : Crane starts unloading container-139 to truck
+2046 : Vessel 4 : Truck returned after transporting container-138
+2046 : Vessel 4 : Truck left with container-139
+2046 : Vessel 3 : Crane starts unloading container-142 to truck
+2049 : Vessel 3 : Truck returned after transporting container-141
+2049 : Vessel 3 : Truck left with container-142
+2049 : Vessel 4 : Crane starts unloading container-140 to truck
+2052 : Vessel 4 : Truck returned after transporting container-139
+2052 : Vessel 4 : Truck left with container-140
+2052 : Vessel 3 : Crane starts unloading container-143 to truck
+2055 : Vessel 3 : Truck returned after transporting container-142
+2055 : Vessel 3 : Truck left with container-143
+2055 : Vessel 4 : Crane starts unloading container-141 to truck
+2058 : Vessel 4 : Truck returned after transporting container-140
+2058 : Vessel 4 : Truck left with container-141
+2058 : Vessel 3 : Crane starts unloading container-144 to truck
+2061 : Vessel 3 : Truck returned after transporting container-143
+2061 : Vessel 3 : Truck left with container-144
+2061 : Vessel 4 : Crane starts unloading container-142 to truck
+2064 : Vessel 4 : Truck returned after transporting container-141
+2064 : Vessel 4 : Truck left with container-142
+2064 : Vessel 3 : Crane starts unloading container-145 to truck
+2067 : Vessel 3 : Truck returned after transporting container-144
+2067 : Vessel 3 : Truck left with container-145
+2067 : Vessel 4 : Crane starts unloading container-143 to truck
+2070 : Vessel 4 : Truck returned after transporting container-142
+2070 : Vessel 4 : Truck left with container-143
+2070 : Vessel 3 : Crane starts unloading container-146 to truck
+2073 : Vessel 3 : Truck returned after transporting container-145
+2073 : Vessel 3 : Truck left with container-146
+2073 : Vessel 4 : Crane starts unloading container-144 to truck
+2076 : Vessel 4 : Truck returned after transporting container-143
+2076 : Vessel 4 : Truck left with container-144
+2076 : Vessel 3 : Crane starts unloading container-147 to truck
+2079 : Vessel 3 : Truck returned after transporting container-146
+2079 : Vessel 3 : Truck left with container-147
+2079 : Vessel 4 : Crane starts unloading container-145 to truck
+2082 : Vessel 4 : Truck returned after transporting container-144
+2082 : Vessel 4 : Truck left with container-145
+2082 : Vessel 3 : Crane starts unloading container-148 to truck
+2085 : Vessel 9 : Arrived at terminal_ _ _ _ _ _<-\___/
+2085 : Vessel 3 : Truck returned after transporting container-147
+2085 : Vessel 3 : Truck left with container-148
+2085 : Vessel 4 : Crane starts unloading container-146 to truck
+2088 : Vessel 4 : Truck returned after transporting container-145
+2088 : Vessel 4 : Truck left with container-146
+2088 : Vessel 3 : Crane starts unloading container-149 to truck
+2091 : Vessel 3 : Truck returned after transporting container-148
+2091 : Vessel 3 : Truck left with container-149
+2091 : Vessel 4 : Crane starts unloading container-147 to truck
+2094 : Vessel 10 : Arrived at terminal_ _ _ _ _ _<-\___/
+2094 : Vessel 4 : Truck returned after transporting container-146
+2094 : Vessel 4 : Truck left with container-147
+2094 : Vessel 3 : Crane starts unloading container-150 to truck
+2097 : Vessel 3 : Truck returned after transporting container-149
+2097 : Vessel 3 : Truck left with container-150
+2097 : Vessel 3 : Finished unloading and is leaving_ _ _ _ _ \___/->
+2097 : Vessel 4 : Crane starts unloading container-148 to truck
+2097 : Vessel 5 : Berthed
+2100 : Vessel 4 : Truck returned after transporting container-147
+2100 : Vessel 4 : Truck left with container-148
+2100 : Vessel 5 : Crane starts unloading container-1 to truck
+2103 : Vessel 3 : Truck returned after transporting container-150
+2103 : Vessel 5 : Truck left with container-1
+2103 : Vessel 4 : Crane starts unloading container-149 to truck
+2106 : Vessel 4 : Truck returned after transporting container-148
+2106 : Vessel 4 : Truck left with container-149
+2106 : Vessel 5 : Crane starts unloading container-2 to truck
+2109 : Vessel 5 : Truck returned after transporting container-1
+2109 : Vessel 5 : Truck left with container-2
+2109 : Vessel 4 : Crane starts unloading container-150 to truck
+2112 : Vessel 4 : Truck returned after transporting container-149
+2112 : Vessel 4 : Truck left with container-150
+2112 : Vessel 4 : Finished unloading and is leaving_ _ _ _ _ \___/->
+2112 : Vessel 5 : Crane starts unloading container-3 to truck
+2112 : Vessel 6 : Berthed
+2115 : Vessel 5 : Truck returned after transporting container-2
+2115 : Vessel 5 : Truck left with container-3
+2115 : Vessel 6 : Crane starts unloading container-1 to truck
+2118 : Vessel 4 : Truck returned after transporting container-150
+2118 : Vessel 6 : Truck left with container-1
+2118 : Vessel 5 : Crane starts unloading container-4 to truck
+2121 : Vessel 5 : Truck returned after transporting container-3
+2121 : Vessel 5 : Truck left with container-4
+2121 : Vessel 6 : Crane starts unloading container-2 to truck
+2124 : Vessel 6 : Truck returned after transporting container-1
+2124 : Vessel 6 : Truck left with container-2
+2124 : Vessel 5 : Crane starts unloading container-5 to truck
+2127 : Vessel 5 : Truck returned after transporting container-4
+2127 : Vessel 5 : Truck left with container-5
+2127 : Vessel 6 : Crane starts unloading container-3 to truck
+2130 : Vessel 6 : Truck returned after transporting container-2
+2130 : Vessel 6 : Truck left with container-3
+2130 : Vessel 5 : Crane starts unloading container-6 to truck
+2133 : Vessel 5 : Truck returned after transporting container-5
+2133 : Vessel 5 : Truck left with container-6
+2133 : Vessel 6 : Crane starts unloading container-4 to truck
+2136 : Vessel 6 : Truck returned after transporting container-3
+2136 : Vessel 6 : Truck left with container-4
+2136 : Vessel 5 : Crane starts unloading container-7 to truck
+2139 : Vessel 5 : Truck returned after transporting container-6
+2139 : Vessel 5 : Truck left with container-7
+2139 : Vessel 6 : Crane starts unloading container-5 to truck
+2142 : Vessel 6 : Truck returned after transporting container-4
+2142 : Vessel 6 : Truck left with container-5
+2142 : Vessel 5 : Crane starts unloading container-8 to truck
+2145 : Vessel 5 : Truck returned after transporting container-7
+2145 : Vessel 5 : Truck left with container-8
+2145 : Vessel 6 : Crane starts unloading container-6 to truck
+2148 : Vessel 6 : Truck returned after transporting container-5
+2148 : Vessel 6 : Truck left with container-6
+2148 : Vessel 5 : Crane starts unloading container-9 to truck
+2151 : Vessel 5 : Truck returned after transporting container-8
+2151 : Vessel 5 : Truck left with container-9
+2151 : Vessel 6 : Crane starts unloading container-7 to truck
+2154 : Vessel 6 : Truck returned after transporting container-6
+2154 : Vessel 6 : Truck left with container-7
+2154 : Vessel 5 : Crane starts unloading container-10 to truck
+2157 : Vessel 5 : Truck returned after transporting container-9
+2157 : Vessel 5 : Truck left with container-10
+2157 : Vessel 6 : Crane starts unloading container-8 to truck
+2160 : Vessel 6 : Truck returned after transporting container-7
+2160 : Vessel 6 : Truck left with container-8
+2160 : Vessel 5 : Crane starts unloading container-11 to truck
+2163 : Vessel 5 : Truck returned after transporting container-10
+2163 : Vessel 5 : Truck left with container-11
+2163 : Vessel 6 : Crane starts unloading container-9 to truck
+2166 : Vessel 6 : Truck returned after transporting container-8
+2166 : Vessel 6 : Truck left with container-9
+2166 : Vessel 5 : Crane starts unloading container-12 to truck
+2168 : Vessel 11 : Arrived at terminal_ _ _ _ _ _<-\___/
+2169 : Vessel 5 : Truck returned after transporting container-11
+2169 : Vessel 5 : Truck left with container-12
+2169 : Vessel 6 : Crane starts unloading container-10 to truck
+2172 : Vessel 6 : Truck returned after transporting container-9
+2172 : Vessel 6 : Truck left with container-10
+2172 : Vessel 5 : Crane starts unloading container-13 to truck
+2175 : Vessel 5 : Truck returned after transporting container-12
+2175 : Vessel 5 : Truck left with container-13
+2175 : Vessel 6 : Crane starts unloading container-11 to truck
+2178 : Vessel 6 : Truck returned after transporting container-10
+2178 : Vessel 6 : Truck left with container-11
+2178 : Vessel 5 : Crane starts unloading container-14 to truck
+2181 : Vessel 5 : Truck returned after transporting container-13
+2181 : Vessel 5 : Truck left with container-14
+2181 : Vessel 6 : Crane starts unloading container-12 to truck
+2184 : Vessel 6 : Truck returned after transporting container-11
+2184 : Vessel 6 : Truck left with container-12
+2184 : Vessel 5 : Crane starts unloading container-15 to truck
+2187 : Vessel 5 : Truck returned after transporting container-14
+2187 : Vessel 5 : Truck left with container-15
+2187 : Vessel 6 : Crane starts unloading container-13 to truck
+2190 : Vessel 6 : Truck returned after transporting container-12
+2190 : Vessel 6 : Truck left with container-13
+2190 : Vessel 5 : Crane starts unloading container-16 to truck
+2193 : Vessel 5 : Truck returned after transporting container-15
+2193 : Vessel 5 : Truck left with container-16
+2193 : Vessel 6 : Crane starts unloading container-14 to truck
+2196 : Vessel 6 : Truck returned after transporting container-13
+2196 : Vessel 6 : Truck left with container-14
+2196 : Vessel 5 : Crane starts unloading container-17 to truck
+2199 : Vessel 5 : Truck returned after transporting container-16
+2199 : Vessel 5 : Truck left with container-17
+2199 : Vessel 6 : Crane starts unloading container-15 to truck
+2202 : Vessel 6 : Truck returned after transporting container-14
+2202 : Vessel 6 : Truck left with container-15
+2202 : Vessel 5 : Crane starts unloading container-18 to truck
+2205 : Vessel 5 : Truck returned after transporting container-17
+2205 : Vessel 5 : Truck left with container-18
+2205 : Vessel 6 : Crane starts unloading container-16 to truck
+2208 : Vessel 6 : Truck returned after transporting container-15
+2208 : Vessel 6 : Truck left with container-16
+2208 : Vessel 5 : Crane starts unloading container-19 to truck
+2211 : Vessel 5 : Truck returned after transporting container-18
+2211 : Vessel 5 : Truck left with container-19
+2211 : Vessel 6 : Crane starts unloading container-17 to truck
+2214 : Vessel 6 : Truck returned after transporting container-16
+2214 : Vessel 6 : Truck left with container-17
+2214 : Vessel 5 : Crane starts unloading container-20 to truck
+2217 : Vessel 5 : Truck returned after transporting container-19
+2217 : Vessel 5 : Truck left with container-20
+2217 : Vessel 6 : Crane starts unloading container-18 to truck
+2220 : Vessel 6 : Truck returned after transporting container-17
+2220 : Vessel 6 : Truck left with container-18
+2220 : Vessel 5 : Crane starts unloading container-21 to truck
+2223 : Vessel 5 : Truck returned after transporting container-20
+2223 : Vessel 5 : Truck left with container-21
+2223 : Vessel 6 : Crane starts unloading container-19 to truck
+2226 : Vessel 6 : Truck returned after transporting container-18
+2226 : Vessel 6 : Truck left with container-19
+2226 : Vessel 5 : Crane starts unloading container-22 to truck
+2229 : Vessel 5 : Truck returned after transporting container-21
+2229 : Vessel 5 : Truck left with container-22
+2229 : Vessel 6 : Crane starts unloading container-20 to truck
+2232 : Vessel 6 : Truck returned after transporting container-19
+2232 : Vessel 6 : Truck left with container-20
+2232 : Vessel 5 : Crane starts unloading container-23 to truck
+2235 : Vessel 5 : Truck returned after transporting container-22
+2235 : Vessel 5 : Truck left with container-23
+2235 : Vessel 6 : Crane starts unloading container-21 to truck
+2238 : Vessel 6 : Truck returned after transporting container-20
+2238 : Vessel 6 : Truck left with container-21
+2238 : Vessel 5 : Crane starts unloading container-24 to truck
+2241 : Vessel 5 : Truck returned after transporting container-23
+2241 : Vessel 5 : Truck left with container-24
+2241 : Vessel 6 : Crane starts unloading container-22 to truck
+2244 : Vessel 6 : Truck returned after transporting container-21
+2244 : Vessel 6 : Truck left with container-22
+2244 : Vessel 5 : Crane starts unloading container-25 to truck
+2247 : Vessel 5 : Truck returned after transporting container-24
+2247 : Vessel 5 : Truck left with container-25
+2247 : Vessel 6 : Crane starts unloading container-23 to truck
+2250 : Vessel 6 : Truck returned after transporting container-22
+2250 : Vessel 6 : Truck left with container-23
+2250 : Vessel 5 : Crane starts unloading container-26 to truck
+2253 : Vessel 5 : Truck returned after transporting container-25
+2253 : Vessel 5 : Truck left with container-26
+2253 : Vessel 6 : Crane starts unloading container-24 to truck
+2256 : Vessel 6 : Truck returned after transporting container-23
+2256 : Vessel 6 : Truck left with container-24
+2256 : Vessel 5 : Crane starts unloading container-27 to truck
+2259 : Vessel 5 : Truck returned after transporting container-26
+2259 : Vessel 5 : Truck left with container-27
+2259 : Vessel 6 : Crane starts unloading container-25 to truck
+2262 : Vessel 6 : Truck returned after transporting container-24
+2262 : Vessel 6 : Truck left with container-25
+2262 : Vessel 5 : Crane starts unloading container-28 to truck
+2265 : Vessel 5 : Truck returned after transporting container-27
+2265 : Vessel 5 : Truck left with container-28
+2265 : Vessel 6 : Crane starts unloading container-26 to truck
+2268 : Vessel 6 : Truck returned after transporting container-25
+2268 : Vessel 6 : Truck left with container-26
+2268 : Vessel 5 : Crane starts unloading container-29 to truck
+2271 : Vessel 5 : Truck returned after transporting container-28
+2271 : Vessel 5 : Truck left with container-29
+2271 : Vessel 6 : Crane starts unloading container-27 to truck
+2274 : Vessel 6 : Truck returned after transporting container-26
+2274 : Vessel 6 : Truck left with container-27
+2274 : Vessel 5 : Crane starts unloading container-30 to truck
+2277 : Vessel 5 : Truck returned after transporting container-29
+2277 : Vessel 5 : Truck left with container-30
+2277 : Vessel 6 : Crane starts unloading container-28 to truck
+2280 : Vessel 6 : Truck returned after transporting container-27
+2280 : Vessel 6 : Truck left with container-28
+2280 : Vessel 5 : Crane starts unloading container-31 to truck
+2283 : Vessel 5 : Truck returned after transporting container-30
+2283 : Vessel 5 : Truck left with container-31
+2283 : Vessel 6 : Crane starts unloading container-29 to truck
+2286 : Vessel 6 : Truck returned after transporting container-28
+2286 : Vessel 6 : Truck left with container-29
+2286 : Vessel 5 : Crane starts unloading container-32 to truck
+2289 : Vessel 5 : Truck returned after transporting container-31
+2289 : Vessel 5 : Truck left with container-32
+2289 : Vessel 6 : Crane starts unloading container-30 to truck
+2292 : Vessel 6 : Truck returned after transporting container-29
+2292 : Vessel 6 : Truck left with container-30
+2292 : Vessel 5 : Crane starts unloading container-33 to truck
+2295 : Vessel 5 : Truck returned after transporting container-32
+2295 : Vessel 5 : Truck left with container-33
+2295 : Vessel 6 : Crane starts unloading container-31 to truck
+2298 : Vessel 6 : Truck returned after transporting container-30
+2298 : Vessel 6 : Truck left with container-31
+2298 : Vessel 5 : Crane starts unloading container-34 to truck
+2301 : Vessel 5 : Truck returned after transporting container-33
+2301 : Vessel 5 : Truck left with container-34
+2301 : Vessel 6 : Crane starts unloading container-32 to truck
+2304 : Vessel 6 : Truck returned after transporting container-31
+2304 : Vessel 6 : Truck left with container-32
+2304 : Vessel 5 : Crane starts unloading container-35 to truck
+2307 : Vessel 5 : Truck returned after transporting container-34
+2307 : Vessel 5 : Truck left with container-35
+2307 : Vessel 6 : Crane starts unloading container-33 to truck
+2310 : Vessel 6 : Truck returned after transporting container-32
+2310 : Vessel 6 : Truck left with container-33
+2310 : Vessel 5 : Crane starts unloading container-36 to truck
+2313 : Vessel 5 : Truck returned after transporting container-35
+2313 : Vessel 5 : Truck left with container-36
+2313 : Vessel 6 : Crane starts unloading container-34 to truck
+2316 : Vessel 6 : Truck returned after transporting container-33
+2316 : Vessel 6 : Truck left with container-34
+2316 : Vessel 5 : Crane starts unloading container-37 to truck
+2319 : Vessel 5 : Truck returned after transporting container-36
+2319 : Vessel 5 : Truck left with container-37
+2319 : Vessel 6 : Crane starts unloading container-35 to truck
+2322 : Vessel 6 : Truck returned after transporting container-34
+2322 : Vessel 6 : Truck left with container-35
+2322 : Vessel 5 : Crane starts unloading container-38 to truck
+2325 : Vessel 5 : Truck returned after transporting container-37
+2325 : Vessel 5 : Truck left with container-38
+2325 : Vessel 6 : Crane starts unloading container-36 to truck
+2328 : Vessel 6 : Truck returned after transporting container-35
+2328 : Vessel 6 : Truck left with container-36
+2328 : Vessel 5 : Crane starts unloading container-39 to truck
+2331 : Vessel 5 : Truck returned after transporting container-38
+2331 : Vessel 5 : Truck left with container-39
+2331 : Vessel 6 : Crane starts unloading container-37 to truck
+2334 : Vessel 6 : Truck returned after transporting container-36
+2334 : Vessel 6 : Truck left with container-37
+2334 : Vessel 5 : Crane starts unloading container-40 to truck
+2337 : Vessel 5 : Truck returned after transporting container-39
+2337 : Vessel 5 : Truck left with container-40
+2337 : Vessel 6 : Crane starts unloading container-38 to truck
+2340 : Vessel 6 : Truck returned after transporting container-37
+2340 : Vessel 6 : Truck left with container-38
+2340 : Vessel 5 : Crane starts unloading container-41 to truck
+2343 : Vessel 5 : Truck returned after transporting container-40
+2343 : Vessel 5 : Truck left with container-41
+2343 : Vessel 6 : Crane starts unloading container-39 to truck
+2346 : Vessel 6 : Truck returned after transporting container-38
+2346 : Vessel 6 : Truck left with container-39
+2346 : Vessel 5 : Crane starts unloading container-42 to truck
+2349 : Vessel 5 : Truck returned after transporting container-41
+2349 : Vessel 5 : Truck left with container-42
+2349 : Vessel 6 : Crane starts unloading container-40 to truck
+2352 : Vessel 6 : Truck returned after transporting container-39
+2352 : Vessel 6 : Truck left with container-40
+2352 : Vessel 5 : Crane starts unloading container-43 to truck
+2355 : Vessel 5 : Truck returned after transporting container-42
+2355 : Vessel 5 : Truck left with container-43
+2355 : Vessel 6 : Crane starts unloading container-41 to truck
+2358 : Vessel 6 : Truck returned after transporting container-40
+2358 : Vessel 6 : Truck left with container-41
+2358 : Vessel 5 : Crane starts unloading container-44 to truck
+2361 : Vessel 5 : Truck returned after transporting container-43
+2361 : Vessel 5 : Truck left with container-44
+2361 : Vessel 6 : Crane starts unloading container-42 to truck
+2364 : Vessel 6 : Truck returned after transporting container-41
+2364 : Vessel 6 : Truck left with container-42
+2364 : Vessel 5 : Crane starts unloading container-45 to truck
+2367 : Vessel 5 : Truck returned after transporting container-44
+2367 : Vessel 5 : Truck left with container-45
+2367 : Vessel 6 : Crane starts unloading container-43 to truck
+2370 : Vessel 6 : Truck returned after transporting container-42
+2370 : Vessel 6 : Truck left with container-43
+2370 : Vessel 5 : Crane starts unloading container-46 to truck
+2373 : Vessel 5 : Truck returned after transporting container-45
+2373 : Vessel 5 : Truck left with container-46
+2373 : Vessel 6 : Crane starts unloading container-44 to truck
+2376 : Vessel 6 : Truck returned after transporting container-43
+2376 : Vessel 6 : Truck left with container-44
+2376 : Vessel 5 : Crane starts unloading container-47 to truck
+2379 : Vessel 12 : Arrived at terminal_ _ _ _ _ _<-\___/
+2379 : Vessel 5 : Truck returned after transporting container-46
+2379 : Vessel 5 : Truck left with container-47
+2379 : Vessel 6 : Crane starts unloading container-45 to truck
+2382 : Vessel 6 : Truck returned after transporting container-44
+2382 : Vessel 6 : Truck left with container-45
+2382 : Vessel 5 : Crane starts unloading container-48 to truck
+2385 : Vessel 5 : Truck returned after transporting container-47
+2385 : Vessel 5 : Truck left with container-48
+
+2385 : Vessel 6 : Crane starts unloading container-46 to truck
+2387 : Vessel 13 : Arrived at terminal_ _ _ _ _ _<-\___/
+2388 : Vessel 6 : Truck returned after transporting container-45
+2388 : Vessel 6 : Truck left with container-46
+2388 : Vessel 5 : Crane starts unloading container-49 to truck
+2391 : Vessel 5 : Truck returned after transporting container-48
+2391 : Vessel 5 : Truck left with container-49
+2391 : Vessel 6 : Crane starts unloading container-47 to truck
+2394 : Vessel 6 : Truck returned after transporting container-46
+2394 : Vessel 6 : Truck left with container-47
+2394 : Vessel 5 : Crane starts unloading container-50 to truck
+2397 : Vessel 5 : Truck returned after transporting container-49
+2397 : Vessel 5 : Truck left with container-50
+2397 : Vessel 6 : Crane starts unloading container-48 to truck
+2400 : Vessel 6 : Truck returned after transporting container-47
+2400 : Vessel 6 : Truck left with container-48
+2400 : Vessel 5 : Crane starts unloading container-51 to truck
+2403 : Vessel 5 : Truck returned after transporting container-50
+2403 : Vessel 5 : Truck left with container-51
+2403 : Vessel 6 : Crane starts unloading container-49 to truck
+2406 : Vessel 6 : Truck returned after transporting container-48
+2406 : Vessel 6 : Truck left with container-49
+2406 : Vessel 5 : Crane starts unloading container-52 to truck
+2409 : Vessel 5 : Truck returned after transporting container-51
+2409 : Vessel 5 : Truck left with container-52
+2409 : Vessel 6 : Crane starts unloading container-50 to truck
+2412 : Vessel 6 : Truck returned after transporting container-49
+2412 : Vessel 6 : Truck left with container-50
+2412 : Vessel 5 : Crane starts unloading container-53 to truck
+2415 : Vessel 5 : Truck returned after transporting container-52
+2415 : Vessel 5 : Truck left with container-53
+2415 : Vessel 6 : Crane starts unloading container-51 to truck
+2418 : Vessel 6 : Truck returned after transporting container-50
+2418 : Vessel 6 : Truck left with container-51
+2418 : Vessel 5 : Crane starts unloading container-54 to truck
+2421 : Vessel 5 : Truck returned after transporting container-53
+2421 : Vessel 5 : Truck left with container-54
+2421 : Vessel 6 : Crane starts unloading container-52 to truck
+2424 : Vessel 6 : Truck returned after transporting container-51
+2424 : Vessel 6 : Truck left with container-52
+2424 : Vessel 5 : Crane starts unloading container-55 to truck
+2427 : Vessel 5 : Truck returned after transporting container-54
+2427 : Vessel 5 : Truck left with container-55
+2427 : Vessel 6 : Crane starts unloading container-53 to truck
+2430 : Vessel 6 : Truck returned after transporting container-52
+2430 : Vessel 6 : Truck left with container-53
+2430 : Vessel 5 : Crane starts unloading container-56 to truck
+2433 : Vessel 5 : Truck returned after transporting container-55
+2433 : Vessel 5 : Truck left with container-56
+2433 : Vessel 6 : Crane starts unloading container-54 to truck
+2436 : Vessel 6 : Truck returned after transporting container-53
+2436 : Vessel 6 : Truck left with container-54
+2436 : Vessel 5 : Crane starts unloading container-57 to truck
+2439 : Vessel 5 : Truck returned after transporting container-56
+2439 : Vessel 5 : Truck left with container-57
+2439 : Vessel 6 : Crane starts unloading container-55 to truck
+2442 : Vessel 6 : Truck returned after transporting container-54
+2442 : Vessel 6 : Truck left with container-55
+2442 : Vessel 5 : Crane starts unloading container-58 to truck
+2445 : Vessel 5 : Truck returned after transporting container-57
+2445 : Vessel 5 : Truck left with container-58
+2445 : Vessel 6 : Crane starts unloading container-56 to truck
+2448 : Vessel 6 : Truck returned after transporting container-55
+2448 : Vessel 6 : Truck left with container-56
+2448 : Vessel 5 : Crane starts unloading container-59 to truck
+2451 : Vessel 5 : Truck returned after transporting container-58
+2451 : Vessel 5 : Truck left with container-59
+2451 : Vessel 6 : Crane starts unloading container-57 to truck
+2453 : Vessel 14 : Arrived at terminal_ _ _ _ _ _<-\___/
+2454 : Vessel 6 : Truck returned after transporting container-56
+2454 : Vessel 6 : Truck left with container-57
+2454 : Vessel 5 : Crane starts unloading container-60 to truck
+2457 : Vessel 5 : Truck returned after transporting container-59
+2457 : Vessel 5 : Truck left with container-60
+2457 : Vessel 6 : Crane starts unloading container-58 to truck
+2460 : Vessel 6 : Truck returned after transporting container-57
+2460 : Vessel 6 : Truck left with container-58
+2460 : Vessel 5 : Crane starts unloading container-61 to truck
+2463 : Vessel 5 : Truck returned after transporting container-60
+2463 : Vessel 5 : Truck left with container-61
+2463 : Vessel 6 : Crane starts unloading container-59 to truck
+2466 : Vessel 6 : Truck returned after transporting container-58
+2466 : Vessel 6 : Truck left with container-59
+2466 : Vessel 5 : Crane starts unloading container-62 to truck
+2469 : Vessel 5 : Truck returned after transporting container-61
+2469 : Vessel 5 : Truck left with container-62
+2469 : Vessel 6 : Crane starts unloading container-60 to truck
+2472 : Vessel 6 : Truck returned after transporting container-59
+2472 : Vessel 6 : Truck left with container-60
+2472 : Vessel 5 : Crane starts unloading container-63 to truck
+2475 : Vessel 5 : Truck returned after transporting container-62
+2475 : Vessel 5 : Truck left with container-63
+2475 : Vessel 6 : Crane starts unloading container-61 to truck
+2478 : Vessel 6 : Truck returned after transporting container-60
+2478 : Vessel 6 : Truck left with container-61
+2478 : Vessel 5 : Crane starts unloading container-64 to truck
+2481 : Vessel 5 : Truck returned after transporting container-63
+2481 : Vessel 5 : Truck left with container-64
+2481 : Vessel 6 : Crane starts unloading container-62 to truck
+2484 : Vessel 6 : Truck returned after transporting container-61
+2484 : Vessel 6 : Truck left with container-62
+2484 : Vessel 5 : Crane starts unloading container-65 to truck
+2487 : Vessel 5 : Truck returned after transporting container-64
+2487 : Vessel 5 : Truck left with container-65
+2487 : Vessel 6 : Crane starts unloading container-63 to truck
+2490 : Vessel 6 : Truck returned after transporting container-62
+2490 : Vessel 6 : Truck left with container-63
+2490 : Vessel 5 : Crane starts unloading container-66 to truck
+2493 : Vessel 5 : Truck returned after transporting container-65
+2493 : Vessel 5 : Truck left with container-66
+2493 : Vessel 6 : Crane starts unloading container-64 to truck
+2496 : Vessel 6 : Truck returned after transporting container-63
+2496 : Vessel 6 : Truck left with container-64
+2496 : Vessel 5 : Crane starts unloading container-67 to truck
+2499 : Vessel 5 : Truck returned after transporting container-66
+2499 : Vessel 5 : Truck left with container-67
+2499 : Vessel 6 : Crane starts unloading container-65 to truck
+2502 : Vessel 6 : Truck returned after transporting container-64
+2502 : Vessel 6 : Truck left with container-65
+2502 : Vessel 5 : Crane starts unloading container-68 to truck
+2505 : Vessel 5 : Truck returned after transporting container-67
+2505 : Vessel 5 : Truck left with container-68
+2505 : Vessel 6 : Crane starts unloading container-66 to truck
+2508 : Vessel 6 : Truck returned after transporting container-65
+2508 : Vessel 6 : Truck left with container-66
+2508 : Vessel 5 : Crane starts unloading container-69 to truck
+2511 : Vessel 5 : Truck returned after transporting container-68
+2511 : Vessel 5 : Truck left with container-69
+2511 : Vessel 6 : Crane starts unloading container-67 to truck
+2514 : Vessel 6 : Truck returned after transporting container-66
+2514 : Vessel 6 : Truck left with container-67
+2514 : Vessel 5 : Crane starts unloading container-70 to truck
+2517 : Vessel 5 : Truck returned after transporting container-69
+2517 : Vessel 5 : Truck left with container-70
+2517 : Vessel 6 : Crane starts unloading container-68 to truck
+2520 : Vessel 6 : Truck returned after transporting container-67
+2520 : Vessel 6 : Truck left with container-68
+2520 : Vessel 5 : Crane starts unloading container-71 to truck
+2523 : Vessel 5 : Truck returned after transporting container-70
+2523 : Vessel 5 : Truck left with container-71
+2523 : Vessel 6 : Crane starts unloading container-69 to truck
+2526 : Vessel 6 : Truck returned after transporting container-68
+2526 : Vessel 6 : Truck left with container-69
+2526 : Vessel 5 : Crane starts unloading container-72 to truck
+2529 : Vessel 5 : Truck returned after transporting container-71
+2529 : Vessel 5 : Truck left with container-72
+2529 : Vessel 6 : Crane starts unloading container-70 to truck
+2532 : Vessel 6 : Truck returned after transporting container-69
+2532 : Vessel 6 : Truck left with container-70
+2532 : Vessel 5 : Crane starts unloading container-73 to truck
+2535 : Vessel 5 : Truck returned after transporting container-72
+2535 : Vessel 5 : Truck left with container-73
+2535 : Vessel 6 : Crane starts unloading container-71 to truck
+2538 : Vessel 6 : Truck returned after transporting container-70
+2538 : Vessel 6 : Truck left with container-71
+2538 : Vessel 5 : Crane starts unloading container-74 to truck
+2541 : Vessel 5 : Truck returned after transporting container-73
+2541 : Vessel 5 : Truck left with container-74
+2541 : Vessel 6 : Crane starts unloading container-72 to truck
+2544 : Vessel 6 : Truck returned after transporting container-71
+2544 : Vessel 6 : Truck left with container-72
+2544 : Vessel 5 : Crane starts unloading container-75 to truck
+2547 : Vessel 5 : Truck returned after transporting container-74
+2547 : Vessel 5 : Truck left with container-75
+2547 : Vessel 6 : Crane starts unloading container-73 to truck
+2550 : Vessel 6 : Truck returned after transporting container-72
+2550 : Vessel 6 : Truck left with container-73
+2550 : Vessel 5 : Crane starts unloading container-76 to truck
+2553 : Vessel 5 : Truck returned after transporting container-75
+2553 : Vessel 5 : Truck left with container-76
+2553 : Vessel 6 : Crane starts unloading container-74 to truck
+2556 : Vessel 6 : Truck returned after transporting container-73
+2556 : Vessel 6 : Truck left with container-74
+2556 : Vessel 5 : Crane starts unloading container-77 to truck
+2559 : Vessel 5 : Truck returned after transporting container-76
+2559 : Vessel 5 : Truck left with container-77
+2559 : Vessel 6 : Crane starts unloading container-75 to truck
+2562 : Vessel 6 : Truck returned after transporting container-74
+2562 : Vessel 6 : Truck left with container-75
+2562 : Vessel 5 : Crane starts unloading container-78 to truck
+2565 : Vessel 5 : Truck returned after transporting container-77
+2565 : Vessel 5 : Truck left with container-78
+2565 : Vessel 6 : Crane starts unloading container-76 to truck
+2568 : Vessel 6 : Truck returned after transporting container-75
+2568 : Vessel 6 : Truck left with container-76
+2568 : Vessel 5 : Crane starts unloading container-79 to truck
+2571 : Vessel 5 : Truck returned after transporting container-78
+2571 : Vessel 5 : Truck left with container-79
+2571 : Vessel 6 : Crane starts unloading container-77 to truck
+2574 : Vessel 6 : Truck returned after transporting container-76
+2574 : Vessel 6 : Truck left with container-77
+2574 : Vessel 5 : Crane starts unloading container-80 to truck
+2577 : Vessel 5 : Truck returned after transporting container-79
+2577 : Vessel 5 : Truck left with container-80
+2577 : Vessel 6 : Crane starts unloading container-78 to truck
+2580 : Vessel 6 : Truck returned after transporting container-77
+2580 : Vessel 6 : Truck left with container-78
+2580 : Vessel 5 : Crane starts unloading container-81 to truck
+2583 : Vessel 5 : Truck returned after transporting container-80
+2583 : Vessel 5 : Truck left with container-81
+2583 : Vessel 6 : Crane starts unloading container-79 to truck
+2586 : Vessel 6 : Truck returned after transporting container-78
+2586 : Vessel 6 : Truck left with container-79
+2586 : Vessel 5 : Crane starts unloading container-82 to truck
+2589 : Vessel 5 : Truck returned after transporting container-81
+2589 : Vessel 5 : Truck left with container-82
+2589 : Vessel 6 : Crane starts unloading container-80 to truck
+2592 : Vessel 6 : Truck returned after transporting container-79
+2592 : Vessel 6 : Truck left with container-80
+2592 : Vessel 5 : Crane starts unloading container-83 to truck
+2595 : Vessel 5 : Truck returned after transporting container-82
+2595 : Vessel 5 : Truck left with container-83
+2595 : Vessel 6 : Crane starts unloading container-81 to truck
+2598 : Vessel 6 : Truck returned after transporting container-80
+2598 : Vessel 6 : Truck left with container-81
+2598 : Vessel 5 : Crane starts unloading container-84 to truck
+2601 : Vessel 5 : Truck returned after transporting container-83
+2601 : Vessel 5 : Truck left with container-84
+2601 : Vessel 6 : Crane starts unloading container-82 to truck
+2604 : Vessel 6 : Truck returned after transporting container-81
+2604 : Vessel 6 : Truck left with container-82
+2604 : Vessel 5 : Crane starts unloading container-85 to truck
+2607 : Vessel 5 : Truck returned after transporting container-84
+2607 : Vessel 5 : Truck left with container-85
+2607 : Vessel 6 : Crane starts unloading container-83 to truck
+2610 : Vessel 6 : Truck returned after transporting container-82
+2610 : Vessel 6 : Truck left with container-83
+2610 : Vessel 5 : Crane starts unloading container-86 to truck
+2613 : Vessel 5 : Truck returned after transporting container-85
+2613 : Vessel 5 : Truck left with container-86
+2613 : Vessel 6 : Crane starts unloading container-84 to truck
+2616 : Vessel 6 : Truck returned after transporting container-83
+2616 : Vessel 6 : Truck left with container-84
+2616 : Vessel 5 : Crane starts unloading container-87 to truck
+2619 : Vessel 5 : Truck returned after transporting container-86
+2619 : Vessel 5 : Truck left with container-87
+2619 : Vessel 6 : Crane starts unloading container-85 to truck
+2622 : Vessel 6 : Truck returned after transporting container-84
+2622 : Vessel 6 : Truck left with container-85
+2622 : Vessel 5 : Crane starts unloading container-88 to truck
+2625 : Vessel 5 : Truck returned after transporting container-87
+2625 : Vessel 5 : Truck left with container-88
+2625 : Vessel 6 : Crane starts unloading container-86 to truck
+2628 : Vessel 6 : Truck returned after transporting container-85
+2628 : Vessel 6 : Truck left with container-86
+2628 : Vessel 5 : Crane starts unloading container-89 to truck
+2631 : Vessel 5 : Truck returned after transporting container-88
+2631 : Vessel 5 : Truck left with container-89
+2631 : Vessel 6 : Crane starts unloading container-87 to truck
+2634 : Vessel 6 : Truck returned after transporting container-86
+2634 : Vessel 6 : Truck left with container-87
+2634 : Vessel 5 : Crane starts unloading container-90 to truck
+2637 : Vessel 5 : Truck returned after transporting container-89
+2637 : Vessel 5 : Truck left with container-90
+2637 : Vessel 6 : Crane starts unloading container-88 to truck
+2640 : Vessel 6 : Truck returned after transporting container-87
+2640 : Vessel 6 : Truck left with container-88
+2640 : Vessel 5 : Crane starts unloading container-91 to truck
+2643 : Vessel 5 : Truck returned after transporting container-90
+2643 : Vessel 5 : Truck left with container-91
+2643 : Vessel 6 : Crane starts unloading container-89 to truck
+2646 : Vessel 6 : Truck returned after transporting container-88
+2646 : Vessel 6 : Truck left with container-89
+2646 : Vessel 5 : Crane starts unloading container-92 to truck
+2649 : Vessel 5 : Truck returned after transporting container-91
+2649 : Vessel 5 : Truck left with container-92
+2649 : Vessel 6 : Crane starts unloading container-90 to truck
+2652 : Vessel 6 : Truck returned after transporting container-89
+2652 : Vessel 6 : Truck left with container-90
+2652 : Vessel 5 : Crane starts unloading container-93 to truck
+2655 : Vessel 5 : Truck returned after transporting container-92
+2655 : Vessel 5 : Truck left with container-93
+2655 : Vessel 6 : Crane starts unloading container-91 to truck
+2658 : Vessel 6 : Truck returned after transporting container-90
+2658 : Vessel 6 : Truck left with container-91
+2658 : Vessel 5 : Crane starts unloading container-94 to truck
+2661 : Vessel 5 : Truck returned after transporting container-93
+2661 : Vessel 5 : Truck left with container-94
+2661 : Vessel 6 : Crane starts unloading container-92 to truck
+2664 : Vessel 6 : Truck returned after transporting container-91
+2664 : Vessel 6 : Truck left with container-92
+2664 : Vessel 5 : Crane starts unloading container-95 to truck
+2667 : Vessel 5 : Truck returned after transporting container-94
+2667 : Vessel 5 : Truck left with container-95
+2667 : Vessel 6 : Crane starts unloading container-93 to truck
+2670 : Vessel 6 : Truck returned after transporting container-92
+2670 : Vessel 6 : Truck left with container-93
+2670 : Vessel 5 : Crane starts unloading container-96 to truck
+2673 : Vessel 5 : Truck returned after transporting container-95
+2673 : Vessel 5 : Truck left with container-96
+2673 : Vessel 6 : Crane starts unloading container-94 to truck
+2676 : Vessel 6 : Truck returned after transporting container-93
+2676 : Vessel 6 : Truck left with container-94
+2676 : Vessel 5 : Crane starts unloading container-97 to truck
+2679 : Vessel 5 : Truck returned after transporting container-96
+2679 : Vessel 5 : Truck left with container-97
+2679 : Vessel 6 : Crane starts unloading container-95 to truck
+2682 : Vessel 6 : Truck returned after transporting container-94
+2682 : Vessel 6 : Truck left with container-95
+2682 : Vessel 5 : Crane starts unloading container-98 to truck
+2685 : Vessel 5 : Truck returned after transporting container-97
+2685 : Vessel 5 : Truck left with container-98
+2685 : Vessel 6 : Crane starts unloading container-96 to truck
+2688 : Vessel 6 : Truck returned after transporting container-95
+2688 : Vessel 6 : Truck left with container-96
+2688 : Vessel 5 : Crane starts unloading container-99 to truck
+2691 : Vessel 5 : Truck returned after transporting container-98
+2691 : Vessel 5 : Truck left with container-99
+2691 : Vessel 6 : Crane starts unloading container-97 to truck
+2694 : Vessel 6 : Truck returned after transporting container-96
+2694 : Vessel 6 : Truck left with container-97
+2694 : Vessel 5 : Crane starts unloading container-100 to truck
+2697 : Vessel 5 : Truck returned after transporting container-99
+2697 : Vessel 5 : Truck left with container-100
+2697 : Vessel 6 : Crane starts unloading container-98 to truck
+2700 : Vessel 6 : Truck returned after transporting container-97
+2700 : Vessel 6 : Truck left with container-98
+2700 : Vessel 5 : Crane starts unloading container-101 to truck
+2703 : Vessel 5 : Truck returned after transporting container-100
+2703 : Vessel 5 : Truck left with container-101
+2703 : Vessel 6 : Crane starts unloading container-99 to truck
+2706 : Vessel 6 : Truck returned after transporting container-98
+2706 : Vessel 6 : Truck left with container-99
+2706 : Vessel 5 : Crane starts unloading container-102 to truck
+2709 : Vessel 5 : Truck returned after transporting container-101
+2709 : Vessel 5 : Truck left with container-102
+2709 : Vessel 6 : Crane starts unloading container-100 to truck
+2712 : Vessel 6 : Truck returned after transporting container-99
+2712 : Vessel 6 : Truck left with container-100
+2712 : Vessel 5 : Crane starts unloading container-103 to truck
+2715 : Vessel 5 : Truck returned after transporting container-102
+2715 : Vessel 5 : Truck left with container-103
+2715 : Vessel 6 : Crane starts unloading container-101 to truck
+2718 : Vessel 6 : Truck returned after transporting container-100
+2718 : Vessel 6 : Truck left with container-101
+2718 : Vessel 5 : Crane starts unloading container-104 to truck
+2721 : Vessel 5 : Truck returned after transporting container-103
+2721 : Vessel 5 : Truck left with container-104
+2721 : Vessel 6 : Crane starts unloading container-102 to truck
+2724 : Vessel 6 : Truck returned after transporting container-101
+2724 : Vessel 6 : Truck left with container-102
+2724 : Vessel 5 : Crane starts unloading container-105 to truck
+2727 : Vessel 5 : Truck returned after transporting container-104
+2727 : Vessel 5 : Truck left with container-105
+2727 : Vessel 6 : Crane starts unloading container-103 to truck
+2730 : Vessel 6 : Truck returned after transporting container-102
+2730 : Vessel 6 : Truck left with container-103
+2730 : Vessel 5 : Crane starts unloading container-106 to truck
+2733 : Vessel 5 : Truck returned after transporting container-105
+2733 : Vessel 5 : Truck left with container-106
+2733 : Vessel 6 : Crane starts unloading container-104 to truck
+2736 : Vessel 6 : Truck returned after transporting container-103
+2736 : Vessel 6 : Truck left with container-104
+2736 : Vessel 5 : Crane starts unloading container-107 to truck
+2739 : Vessel 5 : Truck returned after transporting container-106
+2739 : Vessel 5 : Truck left with container-107
+2739 : Vessel 6 : Crane starts unloading container-105 to truck
+2742 : Vessel 6 : Truck returned after transporting container-104
+2742 : Vessel 6 : Truck left with container-105
+2742 : Vessel 5 : Crane starts unloading container-108 to truck
+2745 : Vessel 5 : Truck returned after transporting container-107
+2745 : Vessel 5 : Truck left with container-108
+2745 : Vessel 6 : Crane starts unloading container-106 to truck
+2748 : Vessel 6 : Truck returned after transporting container-105
+2748 : Vessel 6 : Truck left with container-106
+2748 : Vessel 5 : Crane starts unloading container-109 to truck
+2751 : Vessel 5 : Truck returned after transporting container-108
+2751 : Vessel 5 : Truck left with container-109
+2751 : Vessel 6 : Crane starts unloading container-107 to truck
+2754 : Vessel 6 : Truck returned after transporting container-106
+2754 : Vessel 6 : Truck left with container-107
+2754 : Vessel 5 : Crane starts unloading container-110 to truck
+2757 : Vessel 5 : Truck returned after transporting container-109
+2757 : Vessel 5 : Truck left with container-110
+2757 : Vessel 6 : Crane starts unloading container-108 to truck
+2760 : Vessel 6 : Truck returned after transporting container-107
+2760 : Vessel 6 : Truck left with container-108
+2760 : Vessel 5 : Crane starts unloading container-111 to truck
+2763 : Vessel 5 : Truck returned after transporting container-110
+2763 : Vessel 5 : Truck left with container-111
+2763 : Vessel 6 : Crane starts unloading container-109 to truck
+2766 : Vessel 6 : Truck returned after transporting container-108
+2766 : Vessel 6 : Truck left with container-109
+2766 : Vessel 5 : Crane starts unloading container-112 to truck
+2768 : Vessel 15 : Arrived at terminal_ _ _ _ _ _<-\___/
+2769 : Vessel 5 : Truck returned after transporting container-111
+2769 : Vessel 5 : Truck left with container-112
+2769 : Vessel 6 : Crane starts unloading container-110 to truck
+2772 : Vessel 6 : Truck returned after transporting container-109
+2772 : Vessel 6 : Truck left with container-110
+2772 : Vessel 5 : Crane starts unloading container-113 to truck
+2775 : Vessel 5 : Truck returned after transporting container-112
+2775 : Vessel 5 : Truck left with container-113
+2775 : Vessel 6 : Crane starts unloading container-111 to truck
+2778 : Vessel 6 : Truck returned after transporting container-110
+2778 : Vessel 6 : Truck left with container-111
+2778 : Vessel 5 : Crane starts unloading container-114 to truck
+2781 : Vessel 5 : Truck returned after transporting container-113
+2781 : Vessel 5 : Truck left with container-114
+2781 : Vessel 6 : Crane starts unloading container-112 to truck
+2784 : Vessel 6 : Truck returned after transporting container-111
+2784 : Vessel 6 : Truck left with container-112
+2784 : Vessel 5 : Crane starts unloading container-115 to truck
+2787 : Vessel 5 : Truck returned after transporting container-114
+2787 : Vessel 5 : Truck left with container-115
+2787 : Vessel 6 : Crane starts unloading container-113 to truck
+2790 : Vessel 6 : Truck returned after transporting container-112
+2790 : Vessel 6 : Truck left with container-113
+2790 : Vessel 5 : Crane starts unloading container-116 to truck
+2793 : Vessel 5 : Truck returned after transporting container-115
+2793 : Vessel 5 : Truck left with container-116
+2793 : Vessel 6 : Crane starts unloading container-114 to truck
+2796 : Vessel 6 : Truck returned after transporting container-113
+2796 : Vessel 6 : Truck left with container-114
+2796 : Vessel 5 : Crane starts unloading container-117 to truck
+2799 : Vessel 5 : Truck returned after transporting container-116
+2799 : Vessel 5 : Truck left with container-117
+2799 : Vessel 6 : Crane starts unloading container-115 to truck
+2802 : Vessel 6 : Truck returned after transporting container-114
+2802 : Vessel 6 : Truck left with container-115
+2802 : Vessel 5 : Crane starts unloading container-118 to truck
+2805 : Vessel 5 : Truck returned after transporting container-117
+2805 : Vessel 5 : Truck left with container-118
+2805 : Vessel 6 : Crane starts unloading container-116 to truck
+2808 : Vessel 6 : Truck returned after transporting container-115
+2808 : Vessel 6 : Truck left with container-116
+2808 : Vessel 5 : Crane starts unloading container-119 to truck
+2811 : Vessel 5 : Truck returned after transporting container-118
+2811 : Vessel 5 : Truck left with container-119
+2811 : Vessel 6 : Crane starts unloading container-117 to truck
+2814 : Vessel 6 : Truck returned after transporting container-116
+2814 : Vessel 6 : Truck left with container-117
+2814 : Vessel 5 : Crane starts unloading container-120 to truck
+2817 : Vessel 5 : Truck returned after transporting container-119
+2817 : Vessel 5 : Truck left with container-120
+2817 : Vessel 6 : Crane starts unloading container-118 to truck
+2820 : Vessel 6 : Truck returned after transporting container-117
+2820 : Vessel 6 : Truck left with container-118
+2820 : Vessel 5 : Crane starts unloading container-121 to truck
+2823 : Vessel 5 : Truck returned after transporting container-120
+2823 : Vessel 5 : Truck left with container-121
+2823 : Vessel 6 : Crane starts unloading container-119 to truck
+2826 : Vessel 6 : Truck returned after transporting container-118
+2826 : Vessel 6 : Truck left with container-119
+2826 : Vessel 5 : Crane starts unloading container-122 to truck
+2829 : Vessel 5 : Truck returned after transporting container-121
+2829 : Vessel 5 : Truck left with container-122
+2829 : Vessel 6 : Crane starts unloading container-120 to truck
+2832 : Vessel 6 : Truck returned after transporting container-119
+2832 : Vessel 6 : Truck left with container-120
+2832 : Vessel 5 : Crane starts unloading container-123 to truck
+2835 : Vessel 5 : Truck returned after transporting container-122
+2835 : Vessel 5 : Truck left with container-123
+2835 : Vessel 6 : Crane starts unloading container-121 to truck
+2838 : Vessel 6 : Truck returned after transporting container-120
+2838 : Vessel 6 : Truck left with container-121
+2838 : Vessel 5 : Crane starts unloading container-124 to truck
+2841 : Vessel 5 : Truck returned after transporting container-123
+2841 : Vessel 5 : Truck left with container-124
+2841 : Vessel 6 : Crane starts unloading container-122 to truck
+2844 : Vessel 6 : Truck returned after transporting container-121
+2844 : Vessel 6 : Truck left with container-122
+2844 : Vessel 5 : Crane starts unloading container-125 to truck
+2847 : Vessel 5 : Truck returned after transporting container-124
+2847 : Vessel 5 : Truck left with container-125
+2847 : Vessel 6 : Crane starts unloading container-123 to truck
+2850 : Vessel 6 : Truck returned after transporting container-122
+2850 : Vessel 6 : Truck left with container-123
+2850 : Vessel 5 : Crane starts unloading container-126 to truck
+2853 : Vessel 5 : Truck returned after transporting container-125
+2853 : Vessel 5 : Truck left with container-126
+2853 : Vessel 6 : Crane starts unloading container-124 to truck
+2856 : Vessel 6 : Truck returned after transporting container-123
+2856 : Vessel 6 : Truck left with container-124
+2856 : Vessel 5 : Crane starts unloading container-127 to truck
+2859 : Vessel 5 : Truck returned after transporting container-126
+2859 : Vessel 5 : Truck left with container-127
+2859 : Vessel 6 : Crane starts unloading container-125 to truck
+2862 : Vessel 6 : Truck returned after transporting container-124
+2862 : Vessel 6 : Truck left with container-125
+2862 : Vessel 5 : Crane starts unloading container-128 to truck
+2865 : Vessel 5 : Truck returned after transporting container-127
+2865 : Vessel 5 : Truck left with container-128
+2865 : Vessel 6 : Crane starts unloading container-126 to truck
+2868 : Vessel 6 : Truck returned after transporting container-125
+2868 : Vessel 6 : Truck left with container-126
+2868 : Vessel 5 : Crane starts unloading container-129 to truck
+2871 : Vessel 5 : Truck returned after transporting container-128
+2871 : Vessel 5 : Truck left with container-129
+2871 : Vessel 6 : Crane starts unloading container-127 to truck
+2874 : Vessel 6 : Truck returned after transporting container-126
+2874 : Vessel 6 : Truck left with container-127
+2874 : Vessel 5 : Crane starts unloading container-130 to truck
+2877 : Vessel 5 : Truck returned after transporting container-129
+2877 : Vessel 5 : Truck left with container-130
+2877 : Vessel 6 : Crane starts unloading container-128 to truck
+2880 : Vessel 6 : Truck returned after transporting container-127
+2880 : Vessel 6 : Truck left with container-128
+2880 : Vessel 5 : Crane starts unloading container-131 to truck
+2883 : Vessel 5 : Truck returned after transporting container-130
+2883 : Vessel 5 : Truck left with container-131
+2883 : Vessel 6 : Crane starts unloading container-129 to truck
+2886 : Vessel 6 : Truck returned after transporting container-128
+2886 : Vessel 6 : Truck left with container-129
+2886 : Vessel 5 : Crane starts unloading container-132 to truck
+2889 : Vessel 5 : Truck returned after transporting container-131
+2889 : Vessel 5 : Truck left with container-132
+2889 : Vessel 6 : Crane starts unloading container-130 to truck
+2892 : Vessel 6 : Truck returned after transporting container-129
+2892 : Vessel 6 : Truck left with container-130
+2892 : Vessel 5 : Crane starts unloading container-133 to truck
+2895 : Vessel 5 : Truck returned after transporting container-132
+2895 : Vessel 5 : Truck left with container-133
+2895 : Vessel 6 : Crane starts unloading container-131 to truck
+2898 : Vessel 6 : Truck returned after transporting container-130
+2898 : Vessel 6 : Truck left with container-131
+2898 : Vessel 5 : Crane starts unloading container-134 to truck
+2901 : Vessel 5 : Truck returned after transporting container-133
+2901 : Vessel 5 : Truck left with container-134
+2901 : Vessel 6 : Crane starts unloading container-132 to truck
+2904 : Vessel 6 : Truck returned after transporting container-131
+2904 : Vessel 6 : Truck left with container-132
+2904 : Vessel 5 : Crane starts unloading container-135 to truck
+2907 : Vessel 5 : Truck returned after transporting container-134
+2907 : Vessel 5 : Truck left with container-135
+2907 : Vessel 6 : Crane starts unloading container-133 to truck
+2910 : Vessel 6 : Truck returned after transporting container-132
+2910 : Vessel 6 : Truck left with container-133
+2910 : Vessel 5 : Crane starts unloading container-136 to truck
+2913 : Vessel 5 : Truck returned after transporting container-135
+2913 : Vessel 5 : Truck left with container-136
+2913 : Vessel 6 : Crane starts unloading container-134 to truck
+2916 : Vessel 6 : Truck returned after transporting container-133
+2916 : Vessel 6 : Truck left with container-134
+2916 : Vessel 5 : Crane starts unloading container-137 to truck
+2919 : Vessel 5 : Truck returned after transporting container-136
+2919 : Vessel 5 : Truck left with container-137
+2919 : Vessel 6 : Crane starts unloading container-135 to truck
+2922 : Vessel 6 : Truck returned after transporting container-134
+2922 : Vessel 6 : Truck left with container-135
+2922 : Vessel 5 : Crane starts unloading container-138 to truck
+2925 : Vessel 5 : Truck returned after transporting container-137
+2925 : Vessel 5 : Truck left with container-138
+2925 : Vessel 6 : Crane starts unloading container-136 to truck
+2928 : Vessel 6 : Truck returned after transporting container-135
+2928 : Vessel 6 : Truck left with container-136
+2928 : Vessel 5 : Crane starts unloading container-139 to truck
+2931 : Vessel 5 : Truck returned after transporting container-138
+2931 : Vessel 5 : Truck left with container-139
+2931 : Vessel 6 : Crane starts unloading container-137 to truck
+2934 : Vessel 6 : Truck returned after transporting container-136
+2934 : Vessel 6 : Truck left with container-137
+2934 : Vessel 5 : Crane starts unloading container-140 to truck
+2937 : Vessel 5 : Truck returned after transporting container-139
+2937 : Vessel 5 : Truck left with container-140
+2937 : Vessel 6 : Crane starts unloading container-138 to truck
+2940 : Vessel 6 : Truck returned after transporting container-137
+2940 : Vessel 6 : Truck left with container-138
+2940 : Vessel 5 : Crane starts unloading container-141 to truck
+2943 : Vessel 5 : Truck returned after transporting container-140
+2943 : Vessel 5 : Truck left with container-141
+2943 : Vessel 6 : Crane starts unloading container-139 to truck
+2946 : Vessel 6 : Truck returned after transporting container-138
+2946 : Vessel 6 : Truck left with container-139
+2946 : Vessel 5 : Crane starts unloading container-142 to truck
+2949 : Vessel 5 : Truck returned after transporting container-141
+2949 : Vessel 5 : Truck left with container-142
+2949 : Vessel 6 : Crane starts unloading container-140 to truck
+2952 : Vessel 6 : Truck returned after transporting container-139
+2952 : Vessel 6 : Truck left with container-140
+2952 : Vessel 5 : Crane starts unloading container-143 to truck
+2955 : Vessel 5 : Truck returned after transporting container-142
+2955 : Vessel 5 : Truck left with container-143
+2955 : Vessel 6 : Crane starts unloading container-141 to truck
+2958 : Vessel 6 : Truck returned after transporting container-140
+2958 : Vessel 6 : Truck left with container-141
+2958 : Vessel 5 : Crane starts unloading container-144 to truck
+2961 : Vessel 5 : Truck returned after transporting container-143
+2961 : Vessel 5 : Truck left with container-144
+2961 : Vessel 6 : Crane starts unloading container-142 to truck
+2964 : Vessel 6 : Truck returned after transporting container-141
+2964 : Vessel 6 : Truck left with container-142
+2964 : Vessel 5 : Crane starts unloading container-145 to truck
+2967 : Vessel 5 : Truck returned after transporting container-144
+2967 : Vessel 5 : Truck left with container-145
+2967 : Vessel 6 : Crane starts unloading container-143 to truck
+2970 : Vessel 6 : Truck returned after transporting container-142
+2970 : Vessel 6 : Truck left with container-143
+2970 : Vessel 5 : Crane starts unloading container-146 to truck
+2973 : Vessel 5 : Truck returned after transporting container-145
+2973 : Vessel 5 : Truck left with container-146
+2973 : Vessel 6 : Crane starts unloading container-144 to truck
+2976 : Vessel 6 : Truck returned after transporting container-143
+2976 : Vessel 6 : Truck left with container-144
+2976 : Vessel 5 : Crane starts unloading container-147 to truck
+2979 : Vessel 5 : Truck returned after transporting container-146
+2979 : Vessel 5 : Truck left with container-147
+2979 : Vessel 6 : Crane starts unloading container-145 to truck
+2982 : Vessel 6 : Truck returned after transporting container-144
+2982 : Vessel 6 : Truck left with container-145
+2982 : Vessel 5 : Crane starts unloading container-148 to truck
+2985 : Vessel 5 : Truck returned after transporting container-147
+2985 : Vessel 5 : Truck left with container-148
+2985 : Vessel 6 : Crane starts unloading container-146 to truck
+2988 : Vessel 6 : Truck returned after transporting container-145
+2988 : Vessel 6 : Truck left with container-146
+2988 : Vessel 5 : Crane starts unloading container-149 to truck
+2991 : Vessel 5 : Truck returned after transporting container-148
+2991 : Vessel 5 : Truck left with container-149
+2991 : Vessel 6 : Crane starts unloading container-147 to truck
+2994 : Vessel 6 : Truck returned after transporting container-146
+2994 : Vessel 6 : Truck left with container-147
+2994 : Vessel 5 : Crane starts unloading container-150 to truck
+2997 : Vessel 5 : Truck returned after transporting container-149
+2997 : Vessel 5 : Truck left with container-150
+2997 : Vessel 5 : Finished unloading and is leaving_ _ _ _ _ \___/->
+2997 : Vessel 6 : Crane starts unloading container-148 to truck
+2997 : Vessel 7 : Berthed
